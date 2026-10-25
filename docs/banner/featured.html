@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- A poster cut, 1280 by 640, for places that show the image as a small thumbnail, such
+     as a LinkedIn Featured item at roughly 200 pixels wide. Everything is sized to survive
+     that: two words of title at 96px, one line of numbers, and the bank as a band of
+     colour that still reads when it is 30 pixels tall. The top half is a flex column, so
+     the type can never overlap the band. Render it from this directory:
+       chromium --headless --window-size=1280,640 --force-device-scale-factor=1 \
+         --virtual-time-budget=6000 --screenshot=featured.png featured.html -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #07060a;
+    --text: #f6f3ec;
+    --muted: #b4ada1;
+    --gold: #e8b44a;
+    --rule: #2f2b36;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1280px; height: 640px; overflow: hidden; }
+  body { background: var(--ink); color: var(--text);
+         font-family: "Source Serif 4", Georgia, serif; }
+
+  .top {
+    height: 430px; padding: 54px 76px 0;
+    display: flex; flex-direction: column; justify-content: space-between;
+  }
+
+  .kicker {
+    font: 600 25px/1 "IBM Plex Mono", monospace; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--gold);
+  }
+
+  h1 { font-size: 96px; font-weight: 700; line-height: 1.0; letter-spacing: -0.03em; }
+  h1 small { display: block; margin-top: 10px; font-size: 40px; font-weight: 600;
+             color: var(--muted); letter-spacing: -0.005em; }
+
+  .facts { font: 600 26px/1 "IBM Plex Mono", monospace; padding-bottom: 30px; }
+  .facts b { color: var(--gold); font-weight: 600; }
+  .facts i { color: var(--rule); font-style: normal; margin: 0 14px; }
+
+  /* the bank: a bright band at thumbnail size, the real layout at full size */
+  .band { height: 210px; overflow: hidden; position: relative; border-top: 3px solid var(--gold); }
+  .band img { position: absolute; left: 50%; transform: translateX(-50%);
+              width: 1292px; height: 207px; display: block; }
+</style>
+</head>
+<body>
+  <div class="top">
+    <div class="kicker">sramforge &middot; ASAP7</div>
+    <h1>SRAM compiler
+      <small>for a 7 nanometre process, on open tools</small>
+    </h1>
+    <div class="facts">
+      <b>1.94</b> GHz <i>/</i> <b>114,454</b> transistors <i>/</i> <b>8</b> kB
+    </div>
+  </div>
+
+  <div class="band"><img src="../images/bank_wide.png" alt=""></div>
+</body>
+</html>
