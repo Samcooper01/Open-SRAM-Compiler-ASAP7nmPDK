@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<!-- The README banner, 1200 by 480: the project's headline beside a screenshot
+<!-- The README banner, 1200 by 380: the project's headline beside a screenshot
      of the walkthrough's configurator (configurator.png), linking to the live
      site. Rendered at twice its size, from the repository root:
-       firefox --headless --window-size 2400,960 --screenshot docs/banner.png docs/banner/banner.html -->
+       firefox --headless --window-size 2400,760 --screenshot docs/banner.png docs/banner/banner.html -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -15,7 +15,7 @@
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html { zoom: 2; }
-  html, body { width: 1200px; height: 480px; overflow: hidden; }
+  html, body { width: 1200px; height: 380px; overflow: hidden; }
   body {
     background-color: var(--desk);
     background-image: linear-gradient(var(--grid) 1px, transparent 1px),
@@ -23,20 +23,20 @@
     background-size: 24px 24px;
     font-family: "Source Serif 4", Georgia, serif; color: var(--ink); position: relative;
   }
-  .left { position: absolute; left: 60px; top: 52px; width: 560px; }
+  .left { position: absolute; left: 60px; top: 40px; width: 560px; }
   .brand { display: flex; align-items: center; gap: 12px; }
   .brand svg { width: 40px; height: 40px; flex: none; }
   .brand .name { font-size: 24px; font-weight: 700; line-height: 1.05; }
   .brand .line { font: 500 12px/1.4 "IBM Plex Mono", monospace; letter-spacing: 0.1em;
                  text-transform: uppercase; color: var(--muted); margin-top: 3px; }
-  h1 { margin-top: 36px; font-size: 52px; font-weight: 700; line-height: 1.08;
+  h1 { margin-top: 24px; font-size: 46px; font-weight: 700; line-height: 1.08;
        letter-spacing: -0.02em; }
   h1 .mark { background: linear-gradient(transparent 60%, var(--mark) 60%, var(--mark) 92%, transparent 92%); }
-  .tagline { margin-top: 18px; font-size: 20px; line-height: 1.45; color: var(--muted); width: 540px; }
-  .cta { position: absolute; left: 60px; bottom: 52px; display: flex; align-items: center; gap: 18px; }
+  .tagline { margin-top: 12px; font-size: 18px; line-height: 1.45; color: var(--muted); width: 500px; }
+  .cta { position: absolute; left: 60px; bottom: 40px; display: flex; align-items: center; gap: 18px; }
   .button { background: var(--navy); color: #fff; font: 700 18px/1 Inter, sans-serif;
             padding: 13px 20px; border-radius: 8px; box-shadow: 4px 4px 0 var(--ink); }
-  .window { position: absolute; right: 60px; top: 38px; width: 500px;
+  .window { position: absolute; right: 60px; top: 34px; width: 500px;
             background: var(--sheet); border: 2px solid var(--ink); border-radius: 10px;
             overflow: hidden; box-shadow: 8px 8px 0 var(--ink); }
   .bar { height: 30px; display: flex; align-items: center; gap: 7px; padding: 0 12px;
@@ -66,7 +66,7 @@
         <div class="line">Release 0.1</div>
       </div>
     </div>
-    <h1>A memory compiler for a <span class="mark">7 nanometre</span> process</h1>
+    <h1>A memory compiler for a <span class="mark">7&nbsp;nanometre</span> process</h1>
     <p class="tagline">Layout, abstract, timing library and behavioural model, checked from
       every shape to data stored in time.</p>
   </div>
