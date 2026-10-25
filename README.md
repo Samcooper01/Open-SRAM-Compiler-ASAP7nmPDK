@@ -10,7 +10,7 @@ model. It comes with its own verification stack, which checks each block from ev
 shape in place to data stored in time.
 
 <p align="center">
-  <a href="https://samcooper01.github.io/Open-SRAM-Compiler-ASAP7nmPDK/"><img src="docs/banner.png" width="800" alt="Project page: sramforge, a memory compiler for a 7 nanometre process. A 2 kilobyte block at 1.94 gigahertz, with all 114,454 transistors accounted for. Read the walkthrough."></a>
+  <a href="https://samcooper01.github.io/Open-SRAM-Compiler-ASAP7nmPDK/"><img src="docs/banner.png" width="800" alt="sramforge: a memory compiler for a 7 nanometre process. Layout, abstract, timing library and behavioural model, checked from every shape to data stored in time. Beside it, the walkthrough's interactive configurator. Read the walkthrough."></a>
   <br>
   <b><a href="https://samcooper01.github.io/Open-SRAM-Compiler-ASAP7nmPDK/">&#8594; Read the full walkthrough</a></b>
 </p>
