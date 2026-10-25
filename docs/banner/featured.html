@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!-- A poster cut, 1280 by 640, for places that show the image as a small thumbnail, such
-     as a LinkedIn Featured item at roughly 200 pixels wide. Everything is sized to survive
-     that: two words of title at 96px, one line of numbers, and the bank as a band of
-     colour that still reads when it is 30 pixels tall. The top half is a flex column, so
-     the type can never overlap the band. Render it from this directory:
+     as a LinkedIn Featured item at roughly 200 pixels wide. The bank fills the whole card
+     rather than sitting in a strip, so there is colour everywhere even at that size, and
+     the type sits over a scrim heavy enough to stay legible. The bank is stacked at its
+     own scale rather than blown up, so no wire goes soft. Render it from this directory:
        chromium --headless --window-size=1280,640 --force-device-scale-factor=1 \
          --virtual-time-budget=6000 --screenshot=featured.png featured.html -->
 <html lang="en">
@@ -13,51 +13,65 @@
 <style>
   :root {
     --ink: #07060a;
-    --text: #f6f3ec;
-    --muted: #b4ada1;
-    --gold: #e8b44a;
-    --rule: #2f2b36;
+    --text: #ffffff;
+    --muted: #d8d2c6;
+    --gold: #f0bb52;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { width: 1280px; height: 640px; overflow: hidden; }
-  body { background: var(--ink); color: var(--text);
+  body { background: var(--ink); color: var(--text); position: relative;
          font-family: "Source Serif 4", Georgia, serif; }
 
-  .top {
-    height: 430px; padding: 54px 76px 0;
+  /* the bank at its own scale down the right side: no scrim over it, so the colour is
+     the real colour, and no upscaling, so every wire stays sharp */
+  .bg { position: absolute; right: 0; top: 0; width: 548px; height: 640px; overflow: hidden; }
+  /* bank.png is the tall cut of the same bank, so one image covers the column: no seam */
+  .bg img { position: absolute; left: -106px; top: -880px; width: 760px; height: 2400px; display: block; }
+  /* the left edge dissolves into the card instead of cutting */
+  .scrim {
+    position: absolute; right: 0; top: 0; width: 548px; height: 640px;
+    background: linear-gradient(90deg, var(--ink) 0%, rgba(7,6,10,0.55) 26%, transparent 62%);
+  }
+
+  .wrap {
+    position: absolute; inset: 0; padding: 54px 72px; width: 752px;
     display: flex; flex-direction: column; justify-content: space-between;
   }
-
   .kicker {
-    font: 600 25px/1 "IBM Plex Mono", monospace; letter-spacing: 0.16em;
+    font: 600 26px/1 "IBM Plex Mono", monospace; letter-spacing: 0.16em;
     text-transform: uppercase; color: var(--gold);
+    text-shadow: 0 2px 10px rgba(0,0,0,0.9);
   }
-
-  h1 { font-size: 96px; font-weight: 700; line-height: 1.0; letter-spacing: -0.03em; }
-  h1 small { display: block; margin-top: 10px; font-size: 40px; font-weight: 600;
-             color: var(--muted); letter-spacing: -0.005em; }
-
-  .facts { font: 600 26px/1 "IBM Plex Mono", monospace; padding-bottom: 30px; }
+  h1 {
+    font-size: 116px; font-weight: 700; line-height: 0.98; letter-spacing: -0.035em;
+    text-shadow: 0 3px 22px rgba(0,0,0,0.95);
+  }
+  h1 small {
+    display: block; margin-top: 16px; font-size: 32px; font-weight: 600;
+    color: var(--muted); letter-spacing: -0.005em;
+  }
+  .facts {
+    font: 600 25px/1 "IBM Plex Mono", monospace; white-space: nowrap;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.95);
+  }
   .facts b { color: var(--gold); font-weight: 600; }
-  .facts i { color: var(--rule); font-style: normal; margin: 0 14px; }
-
-  /* the bank: a bright band at thumbnail size, the real layout at full size */
-  .band { height: 210px; overflow: hidden; position: relative; border-top: 3px solid var(--gold); }
-  .band img { position: absolute; left: 50%; transform: translateX(-50%);
-              width: 1292px; height: 207px; display: block; }
+  .facts i { color: rgba(255,255,255,0.32); font-style: normal; margin: 0 12px; }
 </style>
 </head>
 <body>
-  <div class="top">
+  <div class="bg">
+    <img src="../images/bank.png" alt="">
+  </div>
+  <div class="scrim"></div>
+
+  <div class="wrap">
     <div class="kicker">sramforge &middot; ASAP7</div>
-    <h1>SRAM compiler
+    <h1>SRAM<br>compiler
       <small>for a 7 nanometre process, on open tools</small>
     </h1>
     <div class="facts">
       <b>1.94</b> GHz <i>/</i> <b>114,454</b> transistors <i>/</i> <b>8</b> kB
     </div>
   </div>
-
-  <div class="band"><img src="../images/bank_wide.png" alt=""></div>
 </body>
 </html>
