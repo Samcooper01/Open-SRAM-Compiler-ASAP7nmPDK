@@ -1,0 +1,33 @@
+{
+ "vdd_v": 0.7,
+ "temp_c": 25,
+ "cell": "sram6t122",
+ "sizing": {
+  "access_fins": 2,
+  "pulldown_fins": 2,
+  "pullup_fins": 1,
+  "cell_ratio": 1.0,
+  "pullup_ratio": 0.5
+ },
+ "method": "hold and read static noise margin from the half-cell transfer curve (the largest square inscribed in the butterfly lobe, computed in rotated coordinates); write trip point from a 20 ns quasi-static bitline ramp with the wordline high",
+ "corners": {
+  "TT": {
+   "hold_snm_mv": 308.6,
+   "read_snm_mv": 154.2,
+   "trip_mv": 232.9,
+   "write_margin_mv": 467.1
+  },
+  "SS": {
+   "hold_snm_mv": 308.4,
+   "read_snm_mv": 157.7,
+   "trip_mv": 225.9,
+   "write_margin_mv": 474.1
+  },
+  "FF": {
+   "hold_snm_mv": 308.4,
+   "read_snm_mv": 151.5,
+   "trip_mv": 237.1,
+   "write_margin_mv": 462.9
+  }
+ }
+}

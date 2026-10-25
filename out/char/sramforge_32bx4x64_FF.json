@@ -1,0 +1,757 @@
+{
+ "config": {
+  "bits": 32,
+  "strips": 4,
+  "depth": 32,
+  "name": "sramforge_32bx4x64",
+  "corner": "FF",
+  "corner_name": "FF_0p7V_25C",
+  "vdd_v": 0.7,
+  "temp_c": 25,
+  "data_width": 64,
+  "n_address": 8,
+  "words": 256,
+  "bitcells": 16384,
+  "width_um": 9.612,
+  "height_um": 77.804,
+  "area_um2": 747.852
+ },
+ "provenance": {
+  "date": "2026-09-19T20:08:10",
+  "ngspice": "ngspice",
+  "osdi": "bsimcmg110.osdi",
+  "models": "asap7_FF.osdi.sp",
+  "netlist_devices": 114454,
+  "wall_s_total": 204.6,
+  "runs": [
+   {
+    "deck": "gatecap_nmos_rvt.sp",
+    "status": "ok",
+    "wall_s": 0.1
+   },
+   {
+    "deck": "gatecap_pmos_rvt.sp",
+    "status": "ok",
+    "wall_s": 0.0
+   },
+   {
+    "deck": "gatecap_nmos_sram.sp",
+    "status": "ok",
+    "wall_s": 0.1
+   },
+   {
+    "deck": "gatecap_pmos_sram.sp",
+    "status": "ok",
+    "wall_s": 0.1
+   },
+   {
+    "deck": "stageA_read_s20.sp",
+    "status": "stopped at 0.585 ns",
+    "wall_s": 28.4,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_read_s20.sp",
+    "status": "stopped at 0.580 ns",
+    "wall_s": 31.2,
+    "options": "trap"
+   },
+   {
+    "deck": "stageA_read_s60.sp",
+    "status": "stopped at 0.575 ns",
+    "wall_s": 30.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_read_s60.sp",
+    "status": "stopped at 0.585 ns",
+    "wall_s": 29.1,
+    "options": "trap"
+   }
+  ],
+  "stage_a_devices": 2526,
+  "stage_b_devices": 1654,
+  "stage_b_cells": 256
+ },
+ "estimates": {
+  "gate_cap_per_fin_f": {
+   "nmos_rvt": 5.0283727087863036e-17,
+   "pmos_rvt": 5.257251031963687e-17,
+   "nmos_sram": 4.1590212453457404e-17,
+   "pmos_sram": 4.770288084224266e-17
+  },
+  "gate_cap_method": "ngspice transient on one device of each model card (nfin=4, source = drain = its rail): gate ramped over the full 0..VDD swing in 1 ns, gate current integrated, C = Q / VDD / nfin; the large-signal average gate capacitance per fin",
+  "wire_c_per_um_f": 2e-16,
+  "pin_capacitance_method": "ESTIMATE, not simulated: sum over the devices whose gate is the pin's net of nfin x per-fin gate cap (gate_cap_per_fin_f), plus the net's metal length (sum of the longer bounding-box side of every M1..M5 island of the net) x wire_c_per_um_f",
+  "cut_loads_ff": {
+   "stage_a_total": 835.72,
+   "stage_b_total": 3365.74,
+   "note": "capacitors restoring the gate loads the cone truncation removed (fin count x per-fin gate cap, no wire); the largest sit on sae, the precharge lines and the wordline",
+   "sae": 77.24,
+   "wlb<0>": 42.99,
+   "blprechbn": 80.75,
+   "saprechn": 53.83
+  }
+ },
+ "notes": [
+  "stage A read at slew 20 ps did not converge to 4.2 ns",
+  "stage A read at slew 60 ps did not converge to 4.2 ns"
+ ],
+ "setup_ps": {},
+ "hold_ps": {},
+ "pin_capacitance_ff": {
+  "ADDRESS[0]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.95,
+   "wire_ff": 0.9896,
+   "total_ff": 1.2982
+  },
+  "ADDRESS[1]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.21,
+   "wire_ff": 0.842,
+   "total_ff": 1.1506
+  },
+  "ADDRESS[2]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.5,
+   "wire_ff": 0.8996,
+   "total_ff": 1.2082
+  },
+  "ADDRESS[3]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 3.94,
+   "wire_ff": 0.7876,
+   "total_ff": 1.0962
+  },
+  "ADDRESS[4]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 3.66,
+   "wire_ff": 0.7324,
+   "total_ff": 1.041
+  },
+  "ADDRESS[5]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.06,
+   "wire_ff": 0.8128,
+   "total_ff": 1.1214
+  },
+  "ADDRESS[6]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 3.63,
+   "wire_ff": 0.7264,
+   "total_ff": 1.035
+  },
+  "ADDRESS[7]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.16,
+   "wire_ff": 0.8322,
+   "total_ff": 1.1408
+  },
+  "banksel": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.02,
+   "wire_ff": 0.8046,
+   "total_ff": 1.1132
+  },
+  "byte_wrenab": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 3.82,
+   "wire_ff": 0.7648,
+   "total_ff": 1.0734
+  },
+  "clk": {
+   "gate_ff": 1.2274,
+   "gate_devices": 16,
+   "gate_fins": 24,
+   "wire_len_um": 5.75,
+   "wire_ff": 1.1494,
+   "total_ff": 2.3768
+  },
+  "read": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.08,
+   "wire_ff": 0.8154,
+   "total_ff": 1.124
+  },
+  "sdel[0]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.91,
+   "wire_ff": 0.9828,
+   "total_ff": 1.2914
+  },
+  "sdel[1]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.02,
+   "wire_ff": 0.8048,
+   "total_ff": 1.1134
+  },
+  "sdel[2]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.06,
+   "wire_ff": 0.8128,
+   "total_ff": 1.1214
+  },
+  "sdel[3]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.37,
+   "wire_ff": 0.8744,
+   "total_ff": 1.183
+  },
+  "sdel[4]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 3.63,
+   "wire_ff": 0.7264,
+   "total_ff": 1.035
+  },
+  "wd[0]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[10]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[11]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[12]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[13]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[14]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[15]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[16]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[17]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[18]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[19]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[1]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[20]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[21]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[22]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[23]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[24]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[25]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[26]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[27]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[28]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[29]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[2]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[30]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[31]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[32]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[33]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[34]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[35]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[36]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[37]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[38]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[39]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[3]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[40]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[41]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[42]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[43]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[44]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[45]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[46]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[47]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[48]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[49]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[4]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[50]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[51]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[52]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[53]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[54]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[55]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[56]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[57]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[58]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[59]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[5]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[60]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[61]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[62]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[63]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[6]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[7]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[8]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  },
+  "wd[9]": {
+   "gate_ff": 0.3086,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6508
+  }
+ },
+ "stage_a": {
+  "20": null,
+  "60": null,
+  "method": "decode band cone (stage A) with the cone-cut gate loads restored as capacitors (cut_loads_ff); clk rising 50% to the 50% rising crossing of the named control net; two cycles listed"
+ }
+}

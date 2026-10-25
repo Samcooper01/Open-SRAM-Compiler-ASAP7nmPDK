@@ -1,0 +1,3973 @@
+{
+ "array_x32x4_sram_6t122": {
+  "source": "overlay_array_x32x4_sram_6t122.gds",
+  "dbu": 0.00025,
+  "bbox": [
+   -432,
+   0,
+   14692,
+   4320
+  ],
+  "shapes": [
+   {
+    "layer": 99,
+    "datatype": 0,
+    "box": [
+     -432,
+     0,
+     14692,
+     4320
+    ],
+    "role": "marker"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "bln<1>",
+    "x": 14172,
+    "y": 1828,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "bln<0>",
+    "x": 14170,
+    "y": 338,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "bln<3>",
+    "x": 14162,
+    "y": 3990,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "bl<2>",
+    "x": 14318,
+    "y": 2904,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "bln<2>",
+    "x": 14168,
+    "y": 2488,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "bl<3>",
+    "x": 14316,
+    "y": 3580,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "bl<1>",
+    "x": 14328,
+    "y": 1418,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "bl<0>",
+    "x": 14288,
+    "y": 746,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "vdd!",
+    "x": 14266,
+    "y": 58,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "vss!",
+    "x": 14034,
+    "y": 68,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<2>",
+    "x": 12748,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<3>",
+    "x": 12316,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<4>",
+    "x": 11884,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<5>",
+    "x": 11452,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<6>",
+    "x": 11020,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<7>",
+    "x": 10588,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<8>",
+    "x": 10156,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<9>",
+    "x": 9724,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<10>",
+    "x": 9292,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<11>",
+    "x": 8860,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<12>",
+    "x": 8428,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<13>",
+    "x": 7996,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<14>",
+    "x": 7564,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<15>",
+    "x": 7132,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<0>",
+    "x": 13610,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<1>",
+    "x": 13178,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<22>",
+    "x": 4108,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<21>",
+    "x": 4540,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<20>",
+    "x": 4972,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<19>",
+    "x": 5404,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<18>",
+    "x": 5836,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<23>",
+    "x": 3676,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<24>",
+    "x": 3244,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<16>",
+    "x": 6700,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<17>",
+    "x": 6268,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<31>",
+    "x": 220,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<25>",
+    "x": 2812,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<26>",
+    "x": 2380,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<28>",
+    "x": 1516,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<27>",
+    "x": 1948,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<29>",
+    "x": 1084,
+    "y": 360,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<30>",
+    "x": 652,
+    "y": 360,
+    "role": "text"
+   }
+  ]
+ },
+ "colgrp_x64x4b_sram_6t122": {
+  "source": "overlay_colgrp_x64x4b_sram_6t122.gds",
+  "dbu": 0.00025,
+  "bbox": [
+   -480,
+   -14,
+   37152,
+   4442
+  ],
+  "shapes": [
+   {
+    "layer": 20,
+    "datatype": 0,
+    "box": [
+     13912,
+     4140,
+     22392,
+     4212
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 30,
+    "datatype": 0,
+    "box": [
+     16792,
+     -14,
+     17152,
+     4442
+    ],
+    "role": "through-vertical"
+   },
+   {
+    "layer": 30,
+    "datatype": 0,
+    "box": [
+     18952,
+     -14,
+     19060,
+     4442
+    ],
+    "role": "through-vertical"
+   },
+   {
+    "layer": 30,
+    "datatype": 0,
+    "box": [
+     19564,
+     -14,
+     19708,
+     4442
+    ],
+    "role": "through-vertical"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselt<0>",
+    "x": 16188,
+    "y": 1216,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselt<1>",
+    "x": 16040,
+    "y": 1216,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselt<2>",
+    "x": 15904,
+    "y": 1216,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselt<3>",
+    "x": 15752,
+    "y": 1216,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yseltn<0>",
+    "x": 15604,
+    "y": 1240,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yseltn<1>",
+    "x": 15466,
+    "y": 1240,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yseltn<2>",
+    "x": 15324,
+    "y": 1240,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yseltn<3>",
+    "x": 15182,
+    "y": 1240,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "blprechtn",
+    "x": 14894,
+    "y": 316,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "vss!",
+    "x": 22676,
+    "y": 4102,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "vdd!",
+    "x": 22464,
+    "y": 4110,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<31>",
+    "x": 36484,
+    "y": 790,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<30>",
+    "x": 36052,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<29>",
+    "x": 35624,
+    "y": 786,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<28>",
+    "x": 35182,
+    "y": 790,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<27>",
+    "x": 34754,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<26>",
+    "x": 34324,
+    "y": 796,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<25>",
+    "x": 33896,
+    "y": 790,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<24>",
+    "x": 33456,
+    "y": 794,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<23>",
+    "x": 33026,
+    "y": 788,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<22>",
+    "x": 32590,
+    "y": 790,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<21>",
+    "x": 32160,
+    "y": 794,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<20>",
+    "x": 31732,
+    "y": 788,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<19>",
+    "x": 31310,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<18>",
+    "x": 30854,
+    "y": 790,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<17>",
+    "x": 30450,
+    "y": 790,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<16>",
+    "x": 30024,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<15>",
+    "x": 29594,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<14>",
+    "x": 29164,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<13>",
+    "x": 28734,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<12>",
+    "x": 28304,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<11>",
+    "x": 27874,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<10>",
+    "x": 27444,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<9>",
+    "x": 26974,
+    "y": 794,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<8>",
+    "x": 26550,
+    "y": 794,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<7>",
+    "x": 26112,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<6>",
+    "x": 25694,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<5>",
+    "x": 25264,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<4>",
+    "x": 24834,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<3>",
+    "x": 24404,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<2>",
+    "x": 23974,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<1>",
+    "x": 23544,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlb<0>",
+    "x": 23114,
+    "y": 792,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "vss!",
+    "x": 14014,
+    "y": 4102,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "vdd!",
+    "x": 14236,
+    "y": 4110,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<31>",
+    "x": 220,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<30>",
+    "x": 652,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<29>",
+    "x": 1084,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<28>",
+    "x": 1516,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<27>",
+    "x": 1948,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<26>",
+    "x": 2380,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<25>",
+    "x": 2812,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<24>",
+    "x": 3244,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselbn<2>",
+    "x": 21382,
+    "y": 1244,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselbn<3>",
+    "x": 21536,
+    "y": 1242,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselbn<1>",
+    "x": 21236,
+    "y": 1242,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselbn<0>",
+    "x": 21100,
+    "y": 1240,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselb<3>",
+    "x": 20960,
+    "y": 1216,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselb<2>",
+    "x": 20806,
+    "y": 1218,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselb<1>",
+    "x": 20660,
+    "y": 1220,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselb<0>",
+    "x": 20528,
+    "y": 1214,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd",
+    "x": 18580,
+    "y": 342,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wrenan",
+    "x": 17858,
+    "y": 312,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "sae",
+    "x": 17718,
+    "y": 312,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "saprechn",
+    "x": 17570,
+    "y": 312,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "blprechbn",
+    "x": 21838,
+    "y": 316,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "saob",
+    "x": 19472,
+    "y": 796,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<9>",
+    "x": 9724,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<1>",
+    "x": 13180,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<4>",
+    "x": 11884,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<10>",
+    "x": 9292,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<0>",
+    "x": 13612,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<8>",
+    "x": 10156,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<11>",
+    "x": 8860,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<3>",
+    "x": 12316,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<2>",
+    "x": 12748,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<7>",
+    "x": 10588,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<5>",
+    "x": 11452,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<6>",
+    "x": 11020,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<14>",
+    "x": 7564,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<15>",
+    "x": 7132,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<20>",
+    "x": 4972,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<19>",
+    "x": 5404,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<13>",
+    "x": 7996,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<12>",
+    "x": 8428,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<16>",
+    "x": 6700,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<17>",
+    "x": 6268,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<22>",
+    "x": 4108,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<18>",
+    "x": 5836,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<21>",
+    "x": 4540,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wlt<23>",
+    "x": 3676,
+    "y": 836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "vsswrite",
+    "x": 17422,
+    "y": 300,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wrena",
+    "x": 17278,
+    "y": 300,
+    "role": "text"
+   },
+   {
+    "layer": 40,
+    "datatype": 0,
+    "box": [
+     -480,
+     3278,
+     37132,
+     3470
+    ],
+    "role": "full-width"
+   },
+   {
+    "layer": 40,
+    "datatype": 0,
+    "box": [
+     -480,
+     3662,
+     37152,
+     3854
+    ],
+    "role": "full-width"
+   },
+   {
+    "layer": 40,
+    "datatype": 0,
+    "box": [
+     17068,
+     686,
+     19660,
+     782
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 40,
+    "datatype": 0,
+    "box": [
+     17068,
+     302,
+     19932,
+     398
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 35,
+    "datatype": 0,
+    "box": [
+     16792,
+     3662,
+     17152,
+     3854
+    ],
+    "role": "via"
+   },
+   {
+    "layer": 35,
+    "datatype": 0,
+    "box": [
+     18952,
+     3278,
+     19060,
+     3470
+    ],
+    "role": "via"
+   },
+   {
+    "layer": 35,
+    "datatype": 0,
+    "box": [
+     19564,
+     3278,
+     19708,
+     3470
+    ],
+    "role": "via"
+   },
+   {
+    "layer": 35,
+    "datatype": 0,
+    "box": [
+     -272,
+     3278,
+     -200,
+     3470
+    ],
+    "role": "via"
+   },
+   {
+    "layer": 35,
+    "datatype": 0,
+    "box": [
+     13984,
+     3278,
+     14056,
+     3470
+    ],
+    "role": "via"
+   },
+   {
+    "layer": 35,
+    "datatype": 0,
+    "box": [
+     22624,
+     3278,
+     22696,
+     3470
+    ],
+    "role": "via"
+   },
+   {
+    "layer": 35,
+    "datatype": 0,
+    "box": [
+     36880,
+     3278,
+     36952,
+     3470
+    ],
+    "role": "via"
+   },
+   {
+    "layer": 35,
+    "datatype": 0,
+    "box": [
+     37024,
+     3662,
+     37096,
+     3854
+    ],
+    "role": "via"
+   },
+   {
+    "layer": 35,
+    "datatype": 0,
+    "box": [
+     22408,
+     3662,
+     22480,
+     3854
+    ],
+    "role": "via"
+   },
+   {
+    "layer": 35,
+    "datatype": 0,
+    "box": [
+     14200,
+     3662,
+     14272,
+     3854
+    ],
+    "role": "via"
+   },
+   {
+    "layer": 35,
+    "datatype": 0,
+    "box": [
+     -416,
+     3662,
+     -344,
+     3854
+    ],
+    "role": "via"
+   },
+   {
+    "layer": 35,
+    "datatype": 0,
+    "box": [
+     19420,
+     686,
+     19492,
+     782
+    ],
+    "role": "via"
+   },
+   {
+    "layer": 35,
+    "datatype": 0,
+    "box": [
+     18520,
+     302,
+     18592,
+     398
+    ],
+    "role": "via"
+   }
+  ]
+ },
+ "iocolgrp_sram_6t122_v2": {
+  "source": "overlay_iocolgrp_sram_6t122_v2.gds",
+  "dbu": 0.00025,
+  "bbox": [
+   -406,
+   18,
+   7762,
+   4410
+  ],
+  "shapes": [
+   {
+    "layer": 19,
+    "datatype": 0,
+    "box": [
+     5400,
+     4338,
+     5832,
+     4410
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 19,
+    "datatype": 0,
+    "box": [
+     5832,
+     18,
+     6028,
+     90
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 19,
+    "datatype": 0,
+    "box": [
+     1512,
+     1098,
+     1764,
+     1170
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 19,
+    "datatype": 0,
+    "box": [
+     1692,
+     1674,
+     1764,
+     2250
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 19,
+    "datatype": 0,
+    "box": [
+     1512,
+     2178,
+     1764,
+     2250
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "bltn<1>",
+    "x": -350,
+    "y": 1842,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "blt<1>",
+    "x": -254,
+    "y": 1430,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "blt<0>",
+    "x": -262,
+    "y": 764,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "bltn<0>",
+    "x": -406,
+    "y": 356,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "bltn<3>",
+    "x": -258,
+    "y": 3998,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "bltn<2>",
+    "x": -318,
+    "y": 2504,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "blt<2>",
+    "x": -238,
+    "y": 2920,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "blt<3>",
+    "x": -234,
+    "y": 3586,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "blbn<0>",
+    "x": 7762,
+    "y": 336,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "blbn<1>",
+    "x": 7714,
+    "y": 1836,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "blbn<3>",
+    "x": 7722,
+    "y": 4000,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "blb<3>",
+    "x": 7586,
+    "y": 3590,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "blb<0>",
+    "x": 7618,
+    "y": 756,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "blb<1>",
+    "x": 7586,
+    "y": 1430,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "blbn<2>",
+    "x": 7708,
+    "y": 2508,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "blb<2>",
+    "x": 7594,
+    "y": 2918,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 0,
+    "box": [
+     1568,
+     1098,
+     1824,
+     1170
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 20,
+    "datatype": 0,
+    "box": [
+     1568,
+     3258,
+     1824,
+     3330
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 20,
+    "datatype": 0,
+    "box": [
+     1640,
+     1454,
+     2072,
+     1526
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 30,
+    "datatype": 0,
+    "box": [
+     1692,
+     1078,
+     1764,
+     3350
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 3,
+    "datatype": 251,
+    "text": "vss!",
+    "x": 7440,
+    "y": 316,
+    "role": "text"
+   },
+   {
+    "layer": 21,
+    "datatype": 0,
+    "box": [
+     1600,
+     1098,
+     1672,
+     1170
+    ],
+    "role": "via"
+   },
+   {
+    "layer": 21,
+    "datatype": 0,
+    "box": [
+     1600,
+     3258,
+     1672,
+     3330
+    ],
+    "role": "via"
+   },
+   {
+    "layer": 25,
+    "datatype": 0,
+    "box": [
+     1692,
+     1098,
+     1764,
+     1170
+    ],
+    "role": "via"
+   },
+   {
+    "layer": 25,
+    "datatype": 0,
+    "box": [
+     1692,
+     3258,
+     1764,
+     3330
+    ],
+    "role": "via"
+   },
+   {
+    "layer": 25,
+    "datatype": 0,
+    "box": [
+     1980,
+     1454,
+     2052,
+     1526
+    ],
+    "role": "via"
+   },
+   {
+    "layer": 1,
+    "datatype": 251,
+    "text": "vdd!",
+    "x": 1538,
+    "y": 3936,
+    "role": "text"
+   },
+   {
+    "layer": 1,
+    "datatype": 251,
+    "text": "vdd!",
+    "x": 332,
+    "y": 316,
+    "role": "text"
+   },
+   {
+    "layer": 1,
+    "datatype": 251,
+    "text": "vdd!",
+    "x": 7016,
+    "y": 316,
+    "role": "text"
+   },
+   {
+    "layer": 19,
+    "datatype": 251,
+    "text": "vdd!",
+    "x": 2134,
+    "y": 78,
+    "role": "text"
+   },
+   {
+    "layer": 19,
+    "datatype": 251,
+    "text": "vss!",
+    "x": -118,
+    "y": 60,
+    "role": "text"
+   },
+   {
+    "layer": 19,
+    "datatype": 251,
+    "text": "vss!",
+    "x": -118,
+    "y": 2222,
+    "role": "text"
+   },
+   {
+    "layer": 19,
+    "datatype": 251,
+    "text": "vss!",
+    "x": -118,
+    "y": 4378,
+    "role": "text"
+   },
+   {
+    "layer": 19,
+    "datatype": 251,
+    "text": "vss!",
+    "x": 7470,
+    "y": 60,
+    "role": "text"
+   },
+   {
+    "layer": 19,
+    "datatype": 251,
+    "text": "vss!",
+    "x": 7470,
+    "y": 4380,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselbn<0>",
+    "x": 6438,
+    "y": 1240,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselbn<1>",
+    "x": 6576,
+    "y": 1240,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselbn<2>",
+    "x": 6718,
+    "y": 1240,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselbn<3>",
+    "x": 6860,
+    "y": 1240,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselb<0>",
+    "x": 5854,
+    "y": 1216,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselb<1>",
+    "x": 6002,
+    "y": 1216,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselb<2>",
+    "x": 6138,
+    "y": 1216,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselb<3>",
+    "x": 6290,
+    "y": 1216,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yseltn<3>",
+    "x": 490,
+    "y": 1240,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yseltn<2>",
+    "x": 632,
+    "y": 1240,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yseltn<1>",
+    "x": 774,
+    "y": 1240,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yseltn<0>",
+    "x": 912,
+    "y": 1240,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselt<3>",
+    "x": 1060,
+    "y": 1216,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselt<2>",
+    "x": 1212,
+    "y": 1216,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselt<1>",
+    "x": 1348,
+    "y": 1216,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "yselt<0>",
+    "x": 1496,
+    "y": 1216,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "WD",
+    "x": 3888,
+    "y": 346,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wrena",
+    "x": 2586,
+    "y": 304,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "vsswrite",
+    "x": 2730,
+    "y": 304,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "SAPRECHN",
+    "x": 2878,
+    "y": 316,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "SAE",
+    "x": 3026,
+    "y": 316,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wrenan",
+    "x": 3166,
+    "y": 316,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "saob",
+    "x": 4778,
+    "y": 802,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "BLPRECHTN",
+    "x": 202,
+    "y": 316,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "BLPRECHBN",
+    "x": 7142,
+    "y": 316,
+    "role": "text"
+   }
+  ]
+ },
+ "srambank_32b": {
+  "source": "overlay_srambank_32b.gds",
+  "dbu": 0.00025,
+  "bbox": [
+   9928,
+   -36,
+   29383,
+   311076
+  ],
+  "shapes": [
+   {
+    "layer": 1,
+    "datatype": 0,
+    "box": [
+     15120,
+     270,
+     15336,
+     702
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 1,
+    "datatype": 0,
+    "box": [
+     23112,
+     270,
+     23328,
+     702
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 1,
+    "datatype": 0,
+    "box": [
+     23114,
+     310338,
+     23330,
+     310770
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 1,
+    "datatype": 0,
+    "box": [
+     15120,
+     310338,
+     15336,
+     310770
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 99,
+    "datatype": 0,
+    "box": [
+     15120,
+     0,
+     15336,
+     972
+    ],
+    "role": "marker"
+   },
+   {
+    "layer": 99,
+    "datatype": 0,
+    "box": [
+     15120,
+     0,
+     15336,
+     972
+    ],
+    "role": "marker"
+   },
+   {
+    "layer": 99,
+    "datatype": 0,
+    "box": [
+     23112,
+     0,
+     23328,
+     972
+    ],
+    "role": "marker"
+   },
+   {
+    "layer": 99,
+    "datatype": 0,
+    "box": [
+     23112,
+     0,
+     23328,
+     972
+    ],
+    "role": "marker"
+   },
+   {
+    "layer": 99,
+    "datatype": 0,
+    "box": [
+     23114,
+     310068,
+     23330,
+     311040
+    ],
+    "role": "marker"
+   },
+   {
+    "layer": 99,
+    "datatype": 0,
+    "box": [
+     23114,
+     310068,
+     23330,
+     311040
+    ],
+    "role": "marker"
+   },
+   {
+    "layer": 99,
+    "datatype": 0,
+    "box": [
+     15120,
+     310068,
+     15336,
+     311040
+    ],
+    "role": "marker"
+   },
+   {
+    "layer": 99,
+    "datatype": 0,
+    "box": [
+     15120,
+     310068,
+     15336,
+     311040
+    ],
+    "role": "marker"
+   },
+   {
+    "layer": 16,
+    "datatype": 0,
+    "box": [
+     14688,
+     -32,
+     15284,
+     32
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 16,
+    "datatype": 0,
+    "box": [
+     22680,
+     -32,
+     23276,
+     32
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 16,
+    "datatype": 0,
+    "box": [
+     23166,
+     311008,
+     23762,
+     311072
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 16,
+    "datatype": 0,
+    "box": [
+     15172,
+     311008,
+     15768,
+     311072
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 19,
+    "datatype": 0,
+    "box": [
+     15012,
+     -36,
+     15444,
+     36
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 19,
+    "datatype": 0,
+    "box": [
+     23004,
+     -36,
+     23436,
+     36
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 19,
+    "datatype": 0,
+    "box": [
+     23006,
+     311004,
+     23438,
+     311076
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 19,
+    "datatype": 0,
+    "box": [
+     15012,
+     311004,
+     15444,
+     311076
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 20,
+    "datatype": 0,
+    "box": [
+     15064,
+     54,
+     15492,
+     126
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 20,
+    "datatype": 0,
+    "box": [
+     23056,
+     54,
+     23484,
+     126
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 20,
+    "datatype": 0,
+    "box": [
+     22958,
+     310914,
+     23386,
+     310986
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 20,
+    "datatype": 0,
+    "box": [
+     14964,
+     310914,
+     15392,
+     310986
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 12,
+    "datatype": 0,
+    "box": [
+     15120,
+     702,
+     15336,
+     972
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 12,
+    "datatype": 0,
+    "box": [
+     15120,
+     0,
+     15336,
+     270
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 12,
+    "datatype": 0,
+    "box": [
+     23112,
+     702,
+     23328,
+     972
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 12,
+    "datatype": 0,
+    "box": [
+     23112,
+     0,
+     23328,
+     270
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 12,
+    "datatype": 0,
+    "box": [
+     23114,
+     310068,
+     23330,
+     310338
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 12,
+    "datatype": 0,
+    "box": [
+     23114,
+     310770,
+     23330,
+     311040
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 12,
+    "datatype": 0,
+    "box": [
+     15120,
+     310068,
+     15336,
+     310338
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 12,
+    "datatype": 0,
+    "box": [
+     15120,
+     310770,
+     15336,
+     311040
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 13,
+    "datatype": 0,
+    "box": [
+     15120,
+     270,
+     15336,
+     702
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 13,
+    "datatype": 0,
+    "box": [
+     15120,
+     270,
+     15336,
+     702
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 13,
+    "datatype": 0,
+    "box": [
+     23112,
+     270,
+     23328,
+     702
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 13,
+    "datatype": 0,
+    "box": [
+     23112,
+     270,
+     23328,
+     702
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 13,
+    "datatype": 0,
+    "box": [
+     23114,
+     310338,
+     23330,
+     310770
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 13,
+    "datatype": 0,
+    "box": [
+     23114,
+     310338,
+     23330,
+     310770
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 13,
+    "datatype": 0,
+    "box": [
+     15120,
+     310338,
+     15336,
+     310770
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 13,
+    "datatype": 0,
+    "box": [
+     15120,
+     310338,
+     15336,
+     310770
+    ],
+    "role": "stub"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<0>",
+    "x": 19444,
+    "y": 172266,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<0>",
+    "x": 20332,
+    "y": 172994,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<31>",
+    "x": 20348,
+    "y": 306972,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<30>",
+    "x": 20344,
+    "y": 302596,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<29>",
+    "x": 20348,
+    "y": 298276,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<28>",
+    "x": 20340,
+    "y": 293956,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<27>",
+    "x": 20348,
+    "y": 289748,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<26>",
+    "x": 20340,
+    "y": 285316,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<25>",
+    "x": 20340,
+    "y": 281042,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<24>",
+    "x": 20344,
+    "y": 276770,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<23>",
+    "x": 20336,
+    "y": 272396,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<22>",
+    "x": 20336,
+    "y": 268114,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<21>",
+    "x": 20340,
+    "y": 263716,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<20>",
+    "x": 20324,
+    "y": 259396,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<19>",
+    "x": 20332,
+    "y": 255076,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<18>",
+    "x": 20348,
+    "y": 250822,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<17>",
+    "x": 20336,
+    "y": 246476,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<16>",
+    "x": 20336,
+    "y": 242214,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<15>",
+    "x": 20336,
+    "y": 237850,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<14>",
+    "x": 20336,
+    "y": 233514,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<13>",
+    "x": 20344,
+    "y": 229156,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<12>",
+    "x": 20340,
+    "y": 224882,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<11>",
+    "x": 20340,
+    "y": 220516,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<10>",
+    "x": 20336,
+    "y": 216230,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<9>",
+    "x": 20340,
+    "y": 211808,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<8>",
+    "x": 20348,
+    "y": 207556,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<7>",
+    "x": 20344,
+    "y": 203196,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<6>",
+    "x": 20340,
+    "y": 198946,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<5>",
+    "x": 20344,
+    "y": 194674,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<4>",
+    "x": 20348,
+    "y": 190276,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<3>",
+    "x": 20340,
+    "y": 185856,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<2>",
+    "x": 20336,
+    "y": 181602,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<1>",
+    "x": 20344,
+    "y": 177316,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<31>",
+    "x": 19444,
+    "y": 306520,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<30>",
+    "x": 19440,
+    "y": 302094,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<29>",
+    "x": 19436,
+    "y": 297648,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<28>",
+    "x": 19444,
+    "y": 293288,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<27>",
+    "x": 19444,
+    "y": 289300,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<26>",
+    "x": 19436,
+    "y": 284626,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<25>",
+    "x": 19432,
+    "y": 280406,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<24>",
+    "x": 19440,
+    "y": 276354,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<23>",
+    "x": 19448,
+    "y": 271742,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<22>",
+    "x": 19432,
+    "y": 267618,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<21>",
+    "x": 19440,
+    "y": 263214,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<20>",
+    "x": 19444,
+    "y": 258878,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<19>",
+    "x": 19436,
+    "y": 254394,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<18>",
+    "x": 19440,
+    "y": 250254,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<17>",
+    "x": 19436,
+    "y": 245856,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<16>",
+    "x": 19440,
+    "y": 241614,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<15>",
+    "x": 19440,
+    "y": 237294,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<14>",
+    "x": 19436,
+    "y": 232938,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<13>",
+    "x": 19432,
+    "y": 228704,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<12>",
+    "x": 19436,
+    "y": 224132,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<11>",
+    "x": 19440,
+    "y": 220014,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<10>",
+    "x": 19432,
+    "y": 215760,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<9>",
+    "x": 19444,
+    "y": 211112,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<8>",
+    "x": 19440,
+    "y": 206960,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<7>",
+    "x": 19440,
+    "y": 202734,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<6>",
+    "x": 19448,
+    "y": 198178,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<5>",
+    "x": 19472,
+    "y": 194036,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<4>",
+    "x": 19444,
+    "y": 189684,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<3>",
+    "x": 19440,
+    "y": 185376,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<2>",
+    "x": 19428,
+    "y": 181168,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<1>",
+    "x": 19444,
+    "y": 176850,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "vss!",
+    "x": 14904,
+    "y": 139654,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<40>",
+    "x": 20340,
+    "y": 103402,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<39>",
+    "x": 20340,
+    "y": 107724,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<38>",
+    "x": 20344,
+    "y": 111990,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<37>",
+    "x": 20340,
+    "y": 116362,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<63>",
+    "x": 19432,
+    "y": 3796,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<62>",
+    "x": 19440,
+    "y": 8036,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<61>",
+    "x": 19448,
+    "y": 12378,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<60>",
+    "x": 19436,
+    "y": 16744,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<59>",
+    "x": 19436,
+    "y": 21040,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<58>",
+    "x": 19436,
+    "y": 25340,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<57>",
+    "x": 19432,
+    "y": 29680,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<56>",
+    "x": 19444,
+    "y": 34000,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<55>",
+    "x": 19440,
+    "y": 38358,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<54>",
+    "x": 19432,
+    "y": 42686,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<53>",
+    "x": 19444,
+    "y": 47126,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<52>",
+    "x": 19436,
+    "y": 52102,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<51>",
+    "x": 19440,
+    "y": 56322,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<50>",
+    "x": 19440,
+    "y": 60782,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<49>",
+    "x": 19440,
+    "y": 64962,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<48>",
+    "x": 19440,
+    "y": 69458,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<47>",
+    "x": 19440,
+    "y": 73728,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<46>",
+    "x": 19432,
+    "y": 77884,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<45>",
+    "x": 19436,
+    "y": 82316,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<44>",
+    "x": 19440,
+    "y": 86626,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<43>",
+    "x": 19444,
+    "y": 91088,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<42>",
+    "x": 19440,
+    "y": 95202,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<41>",
+    "x": 19444,
+    "y": 99594,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<40>",
+    "x": 19436,
+    "y": 103970,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<39>",
+    "x": 19436,
+    "y": 108372,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<38>",
+    "x": 19436,
+    "y": 112510,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<37>",
+    "x": 19444,
+    "y": 116960,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<36>",
+    "x": 19440,
+    "y": 121122,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<35>",
+    "x": 19444,
+    "y": 125666,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<34>",
+    "x": 19436,
+    "y": 129836,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<33>",
+    "x": 19456,
+    "y": 134258,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<36>",
+    "x": 20336,
+    "y": 120652,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<35>",
+    "x": 20336,
+    "y": 125084,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<34>",
+    "x": 20344,
+    "y": 129316,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<33>",
+    "x": 20336,
+    "y": 133724,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "vdd!",
+    "x": 23340,
+    "y": 139592,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wd<32>",
+    "x": 19440,
+    "y": 138746,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "vdd!",
+    "x": 15116,
+    "y": 139014,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<32>",
+    "x": 20336,
+    "y": 138042,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<63>",
+    "x": 20356,
+    "y": 4702,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<62>",
+    "x": 20336,
+    "y": 9004,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<61>",
+    "x": 20344,
+    "y": 13340,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<60>",
+    "x": 20352,
+    "y": 17652,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<59>",
+    "x": 20344,
+    "y": 21964,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<58>",
+    "x": 20340,
+    "y": 26308,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<57>",
+    "x": 20340,
+    "y": 30628,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<56>",
+    "x": 20348,
+    "y": 34922,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<55>",
+    "x": 20344,
+    "y": 39240,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<54>",
+    "x": 20348,
+    "y": 43578,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<53>",
+    "x": 20332,
+    "y": 47946,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<52>",
+    "x": 20340,
+    "y": 51538,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<51>",
+    "x": 20340,
+    "y": 55880,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<50>",
+    "x": 20344,
+    "y": 60202,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<49>",
+    "x": 20344,
+    "y": 64506,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<48>",
+    "x": 20344,
+    "y": 68882,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<47>",
+    "x": 20340,
+    "y": 73150,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<46>",
+    "x": 20344,
+    "y": 77466,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<45>",
+    "x": 20340,
+    "y": 81796,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<44>",
+    "x": 20344,
+    "y": 86102,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<43>",
+    "x": 20344,
+    "y": 90466,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<42>",
+    "x": 20344,
+    "y": 94748,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "dataout<41>",
+    "x": 20344,
+    "y": 99052,
+    "role": "text"
+   },
+   {
+    "layer": 50,
+    "datatype": 0,
+    "box": [
+     22056,
+     136442,
+     22152,
+     174448
+    ],
+    "role": "through-vertical"
+   },
+   {
+    "layer": 50,
+    "datatype": 0,
+    "box": [
+     21864,
+     136442,
+     21960,
+     174444
+    ],
+    "role": "through-vertical"
+   },
+   {
+    "layer": 50,
+    "datatype": 0,
+    "box": [
+     21672,
+     136442,
+     21768,
+     174444
+    ],
+    "role": "through-vertical"
+   },
+   {
+    "layer": 50,
+    "datatype": 0,
+    "box": [
+     21480,
+     136442,
+     21576,
+     174328
+    ],
+    "role": "through-vertical"
+   },
+   {
+    "layer": 50,
+    "datatype": 0,
+    "box": [
+     21288,
+     136442,
+     21384,
+     174316
+    ],
+    "role": "through-vertical"
+   },
+   {
+    "layer": 50,
+    "datatype": 0,
+    "box": [
+     21096,
+     136442,
+     21192,
+     174324
+    ],
+    "role": "through-vertical"
+   },
+   {
+    "layer": 50,
+    "datatype": 0,
+    "box": [
+     20904,
+     136442,
+     21000,
+     174296
+    ],
+    "role": "through-vertical"
+   },
+   {
+    "layer": 50,
+    "datatype": 0,
+    "box": [
+     20712,
+     136442,
+     20808,
+     174360
+    ],
+    "role": "through-vertical"
+   },
+   {
+    "layer": 50,
+    "datatype": 0,
+    "box": [
+     20520,
+     136442,
+     20616,
+     174356
+    ],
+    "role": "through-vertical"
+   },
+   {
+    "layer": 50,
+    "datatype": 251,
+    "text": "sdel<0>",
+    "x": 13384,
+    "y": 145730,
+    "role": "text"
+   },
+   {
+    "layer": 50,
+    "datatype": 251,
+    "text": "ADDRESS<0>",
+    "x": 29383,
+    "y": 144520,
+    "role": "text"
+   },
+   {
+    "layer": 50,
+    "datatype": 251,
+    "text": "ADDRESS<1>",
+    "x": 28488,
+    "y": 144072,
+    "role": "text"
+   },
+   {
+    "layer": 50,
+    "datatype": 251,
+    "text": "byte_wrenab",
+    "x": 15976,
+    "y": 143058,
+    "role": "text"
+   },
+   {
+    "layer": 50,
+    "datatype": 251,
+    "text": "ADDRESS<4>",
+    "x": 25928,
+    "y": 142634,
+    "role": "text"
+   },
+   {
+    "layer": 50,
+    "datatype": 251,
+    "text": "ADDRESS<5>",
+    "x": 25028,
+    "y": 142052,
+    "role": "text"
+   },
+   {
+    "layer": 50,
+    "datatype": 251,
+    "text": "ADDRESS<7>",
+    "x": 19648,
+    "y": 140714,
+    "role": "text"
+   },
+   {
+    "layer": 50,
+    "datatype": 251,
+    "text": "sdel<2>",
+    "x": 11656,
+    "y": 147772,
+    "role": "text"
+   },
+   {
+    "layer": 50,
+    "datatype": 251,
+    "text": "read",
+    "x": 14264,
+    "y": 144712,
+    "role": "text"
+   },
+   {
+    "layer": 50,
+    "datatype": 251,
+    "text": "clk",
+    "x": 15112,
+    "y": 143904,
+    "role": "text"
+   },
+   {
+    "layer": 50,
+    "datatype": 251,
+    "text": "ADDRESS<2>",
+    "x": 27652,
+    "y": 143584,
+    "role": "text"
+   },
+   {
+    "layer": 50,
+    "datatype": 251,
+    "text": "ADDRESS<3>",
+    "x": 26788,
+    "y": 143128,
+    "role": "text"
+   },
+   {
+    "layer": 50,
+    "datatype": 251,
+    "text": "banksel",
+    "x": 18348,
+    "y": 142098,
+    "role": "text"
+   },
+   {
+    "layer": 50,
+    "datatype": 251,
+    "text": "ADDRESS<6>",
+    "x": 24172,
+    "y": 140750,
+    "role": "text"
+   },
+   {
+    "layer": 50,
+    "datatype": 251,
+    "text": "sdel<1>",
+    "x": 12536,
+    "y": 147060,
+    "role": "text"
+   },
+   {
+    "layer": 50,
+    "datatype": 251,
+    "text": "sdel<3>",
+    "x": 10796,
+    "y": 148522,
+    "role": "text"
+   },
+   {
+    "layer": 50,
+    "datatype": 251,
+    "text": "sdel<4>",
+    "x": 9928,
+    "y": 149338,
+    "role": "text"
+   }
+  ]
+ },
+ "sramcol_x32_sram_6t122": {
+  "source": "overlay_sramcol_x32_sram_6t122.gds",
+  "dbu": 0.00025,
+  "bbox": [
+   322,
+   54,
+   14428,
+   742
+  ],
+  "shapes": [
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "bln",
+    "x": 14278,
+    "y": 336,
+    "role": "text"
+   },
+   {
+    "layer": 20,
+    "datatype": 251,
+    "text": "bl",
+    "x": 14428,
+    "y": 742,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "vdd!",
+    "x": 14374,
+    "y": 54,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "vss!",
+    "x": 14142,
+    "y": 64,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<0>",
+    "x": 13716,
+    "y": 368,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<1>",
+    "x": 13284,
+    "y": 362,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<2>",
+    "x": 12850,
+    "y": 354,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<3>",
+    "x": 12410,
+    "y": 336,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<4>",
+    "x": 11990,
+    "y": 342,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<5>",
+    "x": 11550,
+    "y": 362,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<6>",
+    "x": 11118,
+    "y": 354,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<7>",
+    "x": 10690,
+    "y": 354,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<8>",
+    "x": 10260,
+    "y": 368,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<9>",
+    "x": 9828,
+    "y": 362,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<10>",
+    "x": 9394,
+    "y": 354,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<11>",
+    "x": 8954,
+    "y": 336,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<12>",
+    "x": 8534,
+    "y": 342,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<13>",
+    "x": 8094,
+    "y": 362,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<14>",
+    "x": 7662,
+    "y": 354,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<15>",
+    "x": 7234,
+    "y": 354,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<16>",
+    "x": 6804,
+    "y": 368,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<17>",
+    "x": 6372,
+    "y": 362,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<18>",
+    "x": 5938,
+    "y": 354,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<19>",
+    "x": 5498,
+    "y": 336,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<20>",
+    "x": 5078,
+    "y": 342,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<21>",
+    "x": 4638,
+    "y": 362,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<22>",
+    "x": 4206,
+    "y": 354,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<23>",
+    "x": 3778,
+    "y": 354,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<24>",
+    "x": 3348,
+    "y": 368,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<25>",
+    "x": 2916,
+    "y": 362,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<26>",
+    "x": 2482,
+    "y": 354,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<27>",
+    "x": 2042,
+    "y": 336,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<28>",
+    "x": 1622,
+    "y": 342,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<29>",
+    "x": 1182,
+    "y": 362,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<30>",
+    "x": 750,
+    "y": 354,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "wl<31>",
+    "x": 322,
+    "y": 354,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "vss!",
+    "x": 14142,
+    "y": 68,
+    "role": "text"
+   },
+   {
+    "layer": 30,
+    "datatype": 251,
+    "text": "vdd!",
+    "x": 14370,
+    "y": 58,
+    "role": "text"
+   }
+  ]
+ }
+}

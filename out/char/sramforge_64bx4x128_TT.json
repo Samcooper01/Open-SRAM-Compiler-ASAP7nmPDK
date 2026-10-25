@@ -1,0 +1,1212 @@
+{
+ "config": {
+  "bits": 64,
+  "strips": 4,
+  "depth": 64,
+  "name": "sramforge_64bx4x128",
+  "corner": "TT",
+  "corner_name": "TT_0p7V_25C",
+  "vdd_v": 0.7,
+  "temp_c": 25,
+  "data_width": 128,
+  "n_address": 9,
+  "words": 512,
+  "bitcells": 65536,
+  "width_um": 16.524,
+  "height_um": 152.324,
+  "area_um2": 2517.002
+ },
+ "provenance": {
+  "date": "2026-09-19T16:27:39",
+  "ngspice": "ngspice",
+  "osdi": "bsimcmg110.osdi",
+  "models": "asap7_TT.osdi.sp",
+  "netlist_devices": 422124,
+  "wall_s_total": 3.4,
+  "runs": []
+ },
+ "estimates": {
+  "gate_cap_per_fin_f": {
+   "nmos_rvt": 4.29078635456502e-17,
+   "pmos_rvt": 4.5104348533252265e-17,
+   "nmos_sram": 3.5875129623548475e-17,
+   "pmos_sram": 4.098533814534245e-17
+  },
+  "gate_cap_method": "ngspice transient on one device of each model card (nfin=4, source = drain = its rail): gate ramped over the full 0..VDD swing in 1 ns, gate current integrated, C = Q / VDD / nfin; the large-signal average gate capacitance per fin",
+  "wire_c_per_um_f": 2e-16,
+  "pin_capacitance_method": "ESTIMATE, not simulated: sum over the devices whose gate is the pin's net of nfin x per-fin gate cap (gate_cap_per_fin_f), plus the net's metal length (sum of the longer bounding-box side of every M1..M5 island of the net) x wire_c_per_um_f"
+ },
+ "notes": [],
+ "setup_ps": {},
+ "hold_ps": {},
+ "pin_capacitance_ff": {
+  "ADDRESS[0]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 6.1,
+   "wire_ff": 1.22,
+   "total_ff": 1.484
+  },
+  "ADDRESS[1]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 5.55,
+   "wire_ff": 1.1102,
+   "total_ff": 1.3742
+  },
+  "ADDRESS[2]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 5.48,
+   "wire_ff": 1.0964,
+   "total_ff": 1.3604
+  },
+  "ADDRESS[3]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 5.21,
+   "wire_ff": 1.0424,
+   "total_ff": 1.3064
+  },
+  "ADDRESS[4]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.98,
+   "wire_ff": 0.9964,
+   "total_ff": 1.2604
+  },
+  "ADDRESS[5]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 6.25,
+   "wire_ff": 1.2498,
+   "total_ff": 1.5138
+  },
+  "ADDRESS[6]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 5.76,
+   "wire_ff": 1.1522,
+   "total_ff": 1.4162
+  },
+  "ADDRESS[7]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 5.53,
+   "wire_ff": 1.1064,
+   "total_ff": 1.3704
+  },
+  "ADDRESS[8]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 6.38,
+   "wire_ff": 1.2766,
+   "total_ff": 1.5406
+  },
+  "banksel": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 5.87,
+   "wire_ff": 1.1734,
+   "total_ff": 1.4374
+  },
+  "byte_wrenab": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 6.46,
+   "wire_ff": 1.2924,
+   "total_ff": 1.5564
+  },
+  "clk": {
+   "gate_ff": 2.0925,
+   "gate_devices": 16,
+   "gate_fins": 48,
+   "wire_len_um": 12.2,
+   "wire_ff": 2.4404,
+   "total_ff": 4.5329
+  },
+  "read": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 6.32,
+   "wire_ff": 1.2644,
+   "total_ff": 1.5284
+  },
+  "sdel[0]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.97,
+   "wire_ff": 0.9932,
+   "total_ff": 1.2572
+  },
+  "sdel[1]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 5.28,
+   "wire_ff": 1.0564,
+   "total_ff": 1.3204
+  },
+  "sdel[2]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 6.34,
+   "wire_ff": 1.2674,
+   "total_ff": 1.5314
+  },
+  "sdel[3]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 5.11,
+   "wire_ff": 1.0218,
+   "total_ff": 1.2858
+  },
+  "sdel[4]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 6.61,
+   "wire_ff": 1.3222,
+   "total_ff": 1.5862
+  },
+  "wd[0]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[100]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[101]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[102]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[103]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[104]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[105]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[106]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[107]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[108]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[109]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[10]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[110]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[111]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[112]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[113]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[114]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[115]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[116]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[117]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[118]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[119]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[11]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[120]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[121]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[122]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[123]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[124]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[125]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[126]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[127]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[12]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[13]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[14]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[15]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[16]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[17]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[18]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[19]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[1]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[20]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[21]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[22]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[23]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[24]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[25]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[26]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[27]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[28]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[29]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[2]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[30]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[31]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[32]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[33]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[34]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[35]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[36]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[37]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[38]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[39]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[3]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[40]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[41]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[42]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[43]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[44]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[45]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[46]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[47]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[48]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[49]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[4]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[50]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[51]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[52]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[53]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[54]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[55]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[56]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[57]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[58]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[59]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[5]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[60]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[61]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[62]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[63]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[64]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[65]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[66]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[67]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[68]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[69]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[6]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[70]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[71]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[72]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[73]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[74]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[75]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[76]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[77]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[78]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[79]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[7]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[80]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[81]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[82]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[83]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[84]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[85]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[86]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[87]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[88]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[89]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[8]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[90]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[91]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[92]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[93]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[94]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[95]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[96]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[97]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[98]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[99]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[9]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  }
+ }
+}

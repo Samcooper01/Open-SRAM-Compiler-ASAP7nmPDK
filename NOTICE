@@ -1,0 +1,27 @@
+The GDS cell layouts under cells/ are extracted from asap7_sram_0p0
+(https://github.com/The-OpenROAD-Project/asap7_sram_0p0), part of the
+official ASAP7 release, licensed under the BSD 3-Clause License:
+
+    Copyright (c) 2023, The OpenROAD Project
+
+The full license text is reproduced in that repository's LICENSE file and
+applies to all vendored cell geometry.  These layouts are redistributed
+here unmodified (extraction preserves geometry byte-for-byte, verified by
+XOR in tests/test_golden.py).
+
+The compact model cards under spice/models/ are converted from the ASAP7
+PDK (Process Design Kit) HSPICE decks by scripts/pm2osdi.py.  The model
+data is licensed under the BSD 3-Clause License:
+
+    Copyright 2020 Lawrence T. Clark, Vinay Vashishtha, or Arizona State
+    University
+
+The full license text ships with the ASAP7 release
+(https://github.com/The-OpenROAD-Project/asap7).  The conversion changes
+only the framing needed by OSDI (Open Source Device Interface) and
+ngspice; the parameter data is unmodified.
+
+The design rule deck in sramforge/drc.py is an original transcription of
+the published ASAP7 design rules into KLayout checks, written for this
+project and calibrated so that the vendored reference layout is clean.
+It is not derived from any vendor rule file.

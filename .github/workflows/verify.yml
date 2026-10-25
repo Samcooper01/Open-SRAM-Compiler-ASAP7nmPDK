@@ -1,0 +1,56 @@
+name: verify
+
+# The rungs that need nothing but Python and the KLayout database module
+# run on every push.  The rest of the ladder needs ngspice with compact
+# FinFET models, or OpenROAD in a container, so it runs locally and its
+# records are committed; see the README.
+on:
+  push:
+    branches: [master]
+    # wording and picture changes cannot affect a check
+    paths-ignore: ["README.md", "docs/images/**", "docs/banner.png"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  ladder:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install the layout database module
+        run: pip install --quiet klayout
+
+      - name: Fetch the reference macro the golden rung compares against
+        run: |
+          git clone --depth 1 \
+            https://github.com/The-OpenROAD-Project/asap7_sram_0p0.git \
+            ${{ github.workspace }}/../asap7_sram_0p0
+
+      - name: "Rung 0: the generated layout is XOR-identical to the reference"
+        run: python3 tests/test_golden.py
+
+      - name: "Rung 1: structural invariants across the configuration sweep"
+        run: python3 tests/test_invariants.py
+
+      - name: "Rung 2: connectivity, no shorts and no opens"
+        run: |
+          python3 tests/test_connectivity.py
+          python3 tests/test_connectivity.py --config 32,8,32
+
+      - name: "Rung 4.4: every address selects exactly one wordline"
+        run: python3 tests/test_band_decode.py
+
+      - name: "Rung 6: the abstract agrees with the layout"
+        run: python3 tests/test_lef.py
+
+      - name: "Rung 7: the timing library matches the characterization record"
+        run: python3 tests/test_liberty.py
+
+      - name: "Rung 7.5: every configuration has a sense-timing code"
+        run: python3 tests/test_sense_timing.py

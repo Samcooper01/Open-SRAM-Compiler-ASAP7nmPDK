@@ -1,0 +1,32 @@
+{
+ "config": "sramforge_32bx4x64",
+ "bits": 32,
+ "strips": 4,
+ "depth": 32,
+ "columns_per_access": 64,
+ "vdd_v": 0.7,
+ "method": "column energy from the column bench with a supply probe, integrated over the whole cycle; wordline energy from the wordline bench at this depth and strip count; control-block switching NOT included",
+ "corners": {
+  "TT": {
+   "column_read_fj": 9.504,
+   "column_write_fj": 9.119,
+   "wordline_fj": 6.276,
+   "read_access_pj": 0.6145,
+   "write_access_pj": 0.5899
+  },
+  "SS": {
+   "column_read_fj": 8.491,
+   "column_write_fj": 8.617,
+   "wordline_fj": 6.017,
+   "read_access_pj": 0.5494,
+   "write_access_pj": 0.5575
+  },
+  "FF": {
+   "column_read_fj": 10.15,
+   "column_write_fj": 10.313,
+   "wordline_fj": 6.607,
+   "read_access_pj": 0.6562,
+   "write_access_pj": 0.6666
+  }
+ }
+}

@@ -1,0 +1,2406 @@
+{
+ "config": {
+  "bits": 32,
+  "strips": 4,
+  "depth": 32,
+  "name": "sramforge_32bx4x64",
+  "corner": "TT",
+  "corner_name": "TT_0p7V_25C",
+  "vdd_v": 0.7,
+  "temp_c": 25,
+  "data_width": 64,
+  "n_address": 8,
+  "words": 256,
+  "bitcells": 16384,
+  "width_um": 9.612,
+  "height_um": 77.804,
+  "area_um2": 747.852
+ },
+ "provenance": {
+  "date": "2026-09-19T17:43:32",
+  "ngspice": "ngspice",
+  "osdi": "bsimcmg110.osdi",
+  "models": "asap7_TT.osdi.sp",
+  "netlist_devices": 114454,
+  "wall_s_total": 690.4,
+  "runs": [
+   {
+    "deck": "gatecap_nmos_rvt.sp",
+    "status": "ok",
+    "wall_s": 0.0
+   },
+   {
+    "deck": "gatecap_pmos_rvt.sp",
+    "status": "ok",
+    "wall_s": 0.0
+   },
+   {
+    "deck": "gatecap_nmos_sram.sp",
+    "status": "ok",
+    "wall_s": 0.0
+   },
+   {
+    "deck": "gatecap_pmos_sram.sp",
+    "status": "ok",
+    "wall_s": 0.0
+   },
+   {
+    "deck": "stageA_read_s20.sp",
+    "status": "ok",
+    "wall_s": 10.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_read_s60.sp",
+    "status": "ok",
+    "wall_s": 10.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_rise_s20_c5.sp",
+    "status": "ok",
+    "wall_s": 9.3,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_fall_s20_c5.sp",
+    "status": "ok",
+    "wall_s": 9.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_rise_s20_c20.sp",
+    "status": "ok",
+    "wall_s": 9.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_fall_s20_c20.sp",
+    "status": "ok",
+    "wall_s": 8.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_rise_s20_c50.sp",
+    "status": "ok",
+    "wall_s": 9.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_fall_s20_c50.sp",
+    "status": "ok",
+    "wall_s": 9.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_rise_s60_c5.sp",
+    "status": "ok",
+    "wall_s": 8.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_fall_s60_c5.sp",
+    "status": "ok",
+    "wall_s": 9.2,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_rise_s60_c20.sp",
+    "status": "ok",
+    "wall_s": 8.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_fall_s60_c20.sp",
+    "status": "ok",
+    "wall_s": 8.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_rise_s60_c50.sp",
+    "status": "ok",
+    "wall_s": 9.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_fall_s60_c50.sp",
+    "status": "ok",
+    "wall_s": 9.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_period_430.sp",
+    "status": "ok",
+    "wall_s": 6.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_period_430_rise.sp",
+    "status": "ok",
+    "wall_s": 6.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_period_430_fall.sp",
+    "status": "ok",
+    "wall_s": 6.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_ref_ADDRESS2.sp",
+    "status": "ok",
+    "wall_s": 4.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS2_-120.sp",
+    "status": "ok",
+    "wall_s": 5.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS2_-20.sp",
+    "status": "ok",
+    "wall_s": 5.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS2_+30.sp",
+    "status": "stopped at 0.590 ns",
+    "wall_s": 20.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS2_+30.sp",
+    "status": "ok",
+    "wall_s": 4.5,
+    "options": "trap"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS2_+5.sp",
+    "status": "ok",
+    "wall_s": 4.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS2_-8.sp",
+    "status": "ok",
+    "wall_s": 4.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS2_+80.sp",
+    "status": "ok",
+    "wall_s": 5.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS2_+0.sp",
+    "status": "ok",
+    "wall_s": 4.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS2_+40.sp",
+    "status": "ok",
+    "wall_s": 4.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS2_+20.sp",
+    "status": "ok",
+    "wall_s": 4.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS2_+30.sp",
+    "status": "stopped at 0.590 ns",
+    "wall_s": 19.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS2_+30.sp",
+    "status": "ok",
+    "wall_s": 4.4,
+    "options": "trap"
+   },
+   {
+    "deck": "stageA_ref_ADDRESS7.sp",
+    "status": "ok",
+    "wall_s": 4.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS7_-120.sp",
+    "status": "stopped at 0.410 ns",
+    "wall_s": 18.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS7_-120.sp",
+    "status": "ok",
+    "wall_s": 4.8,
+    "options": "trap"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS7_-20.sp",
+    "status": "ok",
+    "wall_s": 4.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS7_-70.sp",
+    "status": "stopped at 0.460 ns",
+    "wall_s": 20.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS7_-70.sp",
+    "status": "ok",
+    "wall_s": 5.2,
+    "options": "trap"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS7_-45.sp",
+    "status": "ok",
+    "wall_s": 5.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS7_-32.sp",
+    "status": "ok",
+    "wall_s": 5.3,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS7_+80.sp",
+    "status": "ok",
+    "wall_s": 4.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS7_+0.sp",
+    "status": "ok",
+    "wall_s": 4.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS7_+40.sp",
+    "status": "ok",
+    "wall_s": 4.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS7_+20.sp",
+    "status": "ok",
+    "wall_s": 4.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS7_+10.sp",
+    "status": "ok",
+    "wall_s": 4.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_ref_ADDRESS0.sp",
+    "status": "ok",
+    "wall_s": 4.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS0_-120.sp",
+    "status": "ok",
+    "wall_s": 4.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS0_-20.sp",
+    "status": "ok",
+    "wall_s": 4.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS0_+30.sp",
+    "status": "stopped at 0.590 ns",
+    "wall_s": 20.4,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS0_+30.sp",
+    "status": "ok",
+    "wall_s": 4.4,
+    "options": "trap"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS0_+5.sp",
+    "status": "ok",
+    "wall_s": 4.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS0_+18.sp",
+    "status": "ok",
+    "wall_s": 4.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS0_+80.sp",
+    "status": "ok",
+    "wall_s": 4.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS0_+0.sp",
+    "status": "ok",
+    "wall_s": 4.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS0_+40.sp",
+    "status": "ok",
+    "wall_s": 4.4,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS0_+20.sp",
+    "status": "ok",
+    "wall_s": 4.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS0_+30.sp",
+    "status": "stopped at 0.590 ns",
+    "wall_s": 22.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS0_+30.sp",
+    "status": "ok",
+    "wall_s": 4.9,
+    "options": "trap"
+   },
+   {
+    "deck": "stageA_ref_banksel.sp",
+    "status": "ok",
+    "wall_s": 4.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_banksel_-120.sp",
+    "status": "ok",
+    "wall_s": 5.2,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_banksel_-20.sp",
+    "status": "ok",
+    "wall_s": 5.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_banksel_-70.sp",
+    "status": "ok",
+    "wall_s": 5.4,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_banksel_-45.sp",
+    "status": "ok",
+    "wall_s": 5.2,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_banksel_-32.sp",
+    "status": "ok",
+    "wall_s": 4.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_banksel_+80.sp",
+    "status": "ok",
+    "wall_s": 4.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_banksel_+0.sp",
+    "status": "ok",
+    "wall_s": 4.4,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_banksel_-40.sp",
+    "status": "ok",
+    "wall_s": 4.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_banksel_-20.sp",
+    "status": "ok",
+    "wall_s": 3.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_banksel_-10.sp",
+    "status": "ok",
+    "wall_s": 4.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_ref_read.sp",
+    "status": "ok",
+    "wall_s": 4.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_read_-120.sp",
+    "status": "ok",
+    "wall_s": 4.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_read_-20.sp",
+    "status": "ok",
+    "wall_s": 4.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_read_-70.sp",
+    "status": "ok",
+    "wall_s": 4.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_read_-45.sp",
+    "status": "ok",
+    "wall_s": 5.2,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_read_-32.sp",
+    "status": "ok",
+    "wall_s": 4.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_read_+80.sp",
+    "status": "ok",
+    "wall_s": 4.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_read_+0.sp",
+    "status": "ok",
+    "wall_s": 4.2,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_read_+40.sp",
+    "status": "ok",
+    "wall_s": 4.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_read_+20.sp",
+    "status": "ok",
+    "wall_s": 4.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_read_+10.sp",
+    "status": "ok",
+    "wall_s": 4.2,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_ref_byte_wrenab.sp",
+    "status": "ok",
+    "wall_s": 4.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_byte_wrenab_-120.sp",
+    "status": "ok",
+    "wall_s": 4.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_byte_wrenab_-20.sp",
+    "status": "ok",
+    "wall_s": 4.4,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_byte_wrenab_+30.sp",
+    "status": "ok",
+    "wall_s": 4.2,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_byte_wrenab_+5.sp",
+    "status": "ok",
+    "wall_s": 4.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_byte_wrenab_-8.sp",
+    "status": "ok",
+    "wall_s": 4.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_byte_wrenab_+80.sp",
+    "status": "ok",
+    "wall_s": 4.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_byte_wrenab_+0.sp",
+    "status": "ok",
+    "wall_s": 3.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_byte_wrenab_+40.sp",
+    "status": "ok",
+    "wall_s": 3.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_byte_wrenab_+20.sp",
+    "status": "ok",
+    "wall_s": 4.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_byte_wrenab_+10.sp",
+    "status": "ok",
+    "wall_s": 4.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_writeread.sp",
+    "status": "ok",
+    "wall_s": 10.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_setup_-120.sp",
+    "status": "ok",
+    "wall_s": 9.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_setup_-20.sp",
+    "status": "ok",
+    "wall_s": 8.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_setup_+30.sp",
+    "status": "ok",
+    "wall_s": 8.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_setup_+5.sp",
+    "status": "ok",
+    "wall_s": 8.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_setup_+18.sp",
+    "status": "ok",
+    "wall_s": 8.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_hold_+80.sp",
+    "status": "ok",
+    "wall_s": 8.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_hold_+0.sp",
+    "status": "ok",
+    "wall_s": 9.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_hold_+40.sp",
+    "status": "ok",
+    "wall_s": 9.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_hold_+20.sp",
+    "status": "ok",
+    "wall_s": 8.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_hold_+30.sp",
+    "status": "ok",
+    "wall_s": 8.3,
+    "options": "rung5"
+   },
+   {
+    "deck": "leak_band.sp",
+    "status": "ok",
+    "wall_s": 4.5,
+    "options": "leak_gear"
+   },
+   {
+    "deck": "leak_column.sp",
+    "status": "ok",
+    "wall_s": 2.0,
+    "options": "leak_gear"
+   }
+  ],
+  "stage_a_devices": 2526,
+  "stage_b_devices": 1654,
+  "stage_b_cells": 256
+ },
+ "estimates": {
+  "gate_cap_per_fin_f": {
+   "nmos_rvt": 4.29078635456502e-17,
+   "pmos_rvt": 4.5104348533252265e-17,
+   "nmos_sram": 3.5875129623548475e-17,
+   "pmos_sram": 4.098533814534245e-17
+  },
+  "gate_cap_method": "ngspice transient on one device of each model card (nfin=4, source = drain = its rail): gate ramped over the full 0..VDD swing in 1 ns, gate current integrated, C = Q / VDD / nfin; the large-signal average gate capacitance per fin",
+  "wire_c_per_um_f": 2e-16,
+  "pin_capacitance_method": "ESTIMATE, not simulated: sum over the devices whose gate is the pin's net of nfin x per-fin gate cap (gate_cap_per_fin_f), plus the net's metal length (sum of the longer bounding-box side of every M1..M5 island of the net) x wire_c_per_um_f",
+  "cut_loads_ff": {
+   "stage_a_total": 716.22,
+   "stage_b_total": 2898.72,
+   "note": "capacitors restoring the gate loads the cone truncation removed (fin count x per-fin gate cap, no wire); the largest sit on sae, the precharge lines and the wordline",
+   "sae": 65.91,
+   "wlb<0>": 37.08,
+   "blprechbn": 69.28,
+   "saprechn": 46.19
+  }
+ },
+ "notes": [],
+ "setup_ps": {
+  "ADDRESS<2> (column)": {
+   "reference_ps": {
+    "wlb<1>": 87.4
+   },
+   "search": [
+    {
+     "t_ps": -120.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<1>": 87.3
+     }
+    },
+    {
+     "t_ps": -20.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<1>": 88.0
+     }
+    },
+    {
+     "t_ps": 30.0,
+     "pass": false,
+     "edges_ps": {
+      "wlb<1>": null
+     }
+    },
+    {
+     "t_ps": 5.0,
+     "pass": false,
+     "edges_ps": {
+      "wlb<1>": 102.5
+     }
+    },
+    {
+     "t_ps": -7.5,
+     "pass": true,
+     "edges_ps": {
+      "wlb<1>": 91.6
+     }
+    }
+   ],
+   "last_pass_ps": -7.5,
+   "first_fail_ps": 5.0,
+   "setup_ps": 7.5
+  },
+  "ADDRESS<7> (half)": {
+   "reference_ps": {
+    "wlt<0>": 88.4
+   },
+   "search": [
+    {
+     "t_ps": -120.0,
+     "pass": true,
+     "edges_ps": {
+      "wlt<0>": 87.3
+     }
+    },
+    {
+     "t_ps": -20.0,
+     "pass": false,
+     "edges_ps": {
+      "wlt<0>": 114.0
+     }
+    },
+    {
+     "t_ps": -70.0,
+     "pass": true,
+     "edges_ps": {
+      "wlt<0>": 84.4
+     }
+    },
+    {
+     "t_ps": -45.0,
+     "pass": true,
+     "edges_ps": {
+      "wlt<0>": 88.8
+     }
+    },
+    {
+     "t_ps": -32.5,
+     "pass": false,
+     "edges_ps": {
+      "wlt<0>": 102.9
+     }
+    }
+   ],
+   "last_pass_ps": -45.0,
+   "first_fail_ps": -32.5,
+   "setup_ps": 45.0
+  },
+  "ADDRESS<0> (mux)": {
+   "reference_ps": {
+    "sae": 204.9
+   },
+   "search": [
+    {
+     "t_ps": -120.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 205.1
+     }
+    },
+    {
+     "t_ps": -20.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 205.3
+     }
+    },
+    {
+     "t_ps": 30.0,
+     "pass": false,
+     "edges_ps": {
+      "sae": 203.8
+     }
+    },
+    {
+     "t_ps": 5.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 203.9
+     }
+    },
+    {
+     "t_ps": 17.5,
+     "pass": true,
+     "edges_ps": {
+      "sae": 203.8
+     }
+    }
+   ],
+   "last_pass_ps": 17.5,
+   "first_fail_ps": 30.0,
+   "setup_ps": -17.5
+  },
+  "banksel": {
+   "reference_ps": {
+    "wlb<0>": 87.4,
+    "sae": 204.9
+   },
+   "search": [
+    {
+     "t_ps": -120.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<0>": 86.5,
+      "sae": 203.4
+     }
+    },
+    {
+     "t_ps": -20.0,
+     "pass": false,
+     "edges_ps": {
+      "wlb<0>": 107.6,
+      "sae": 225.2
+     }
+    },
+    {
+     "t_ps": -70.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<0>": 84.9,
+      "sae": 201.8
+     }
+    },
+    {
+     "t_ps": -45.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<0>": 83.3,
+      "sae": 200.9
+     }
+    },
+    {
+     "t_ps": -32.5,
+     "pass": true,
+     "edges_ps": {
+      "wlb<0>": 95.7,
+      "sae": 212.0
+     }
+    }
+   ],
+   "last_pass_ps": -32.5,
+   "first_fail_ps": -20.0,
+   "setup_ps": 32.5
+  },
+  "read": {
+   "reference_ps": {
+    "sae": 204.9
+   },
+   "search": [
+    {
+     "t_ps": -120.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 205.3
+     }
+    },
+    {
+     "t_ps": -20.0,
+     "pass": false,
+     "edges_ps": {
+      "sae": 221.5
+     }
+    },
+    {
+     "t_ps": -70.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 204.1
+     }
+    },
+    {
+     "t_ps": -45.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 200.6
+     }
+    },
+    {
+     "t_ps": -32.5,
+     "pass": true,
+     "edges_ps": {
+      "sae": 209.9
+     }
+    }
+   ],
+   "last_pass_ps": -32.5,
+   "first_fail_ps": -20.0,
+   "setup_ps": 32.5
+  },
+  "byte_wrenab": {
+   "reference_ps": {
+    "wrena": 59.8
+   },
+   "search": [
+    {
+     "t_ps": -120.0,
+     "pass": true,
+     "edges_ps": {
+      "wrena": 59.8
+     }
+    },
+    {
+     "t_ps": -20.0,
+     "pass": true,
+     "edges_ps": {
+      "wrena": 63.8
+     }
+    },
+    {
+     "t_ps": 30.0,
+     "pass": false,
+     "edges_ps": {
+      "wrena": null
+     }
+    },
+    {
+     "t_ps": 5.0,
+     "pass": false,
+     "edges_ps": {
+      "wrena": 87.3
+     }
+    },
+    {
+     "t_ps": -7.5,
+     "pass": false,
+     "edges_ps": {
+      "wrena": 75.5
+     }
+    }
+   ],
+   "last_pass_ps": -20.0,
+   "first_fail_ps": -7.5,
+   "setup_ps": 20.0
+  },
+  "wd": {
+   "search": [
+    {
+     "t_ps": -120.0,
+     "pass": true,
+     "edges_ps": {
+      "cell_mv": 700.0,
+      "dataout_mv": 700.0
+     }
+    },
+    {
+     "t_ps": -20.0,
+     "pass": true,
+     "edges_ps": {
+      "cell_mv": 700.0,
+      "dataout_mv": 700.0
+     }
+    },
+    {
+     "t_ps": 30.0,
+     "pass": false,
+     "edges_ps": {
+      "cell_mv": 0.0,
+      "dataout_mv": 0.0
+     }
+    },
+    {
+     "t_ps": 5.0,
+     "pass": true,
+     "edges_ps": {
+      "cell_mv": 700.0,
+      "dataout_mv": 700.0
+     }
+    },
+    {
+     "t_ps": 17.5,
+     "pass": true,
+     "edges_ps": {
+      "cell_mv": 700.0,
+      "dataout_mv": 700.0
+     }
+    }
+   ],
+   "polarity": "write 1 into a cell holding 0, read back",
+   "last_pass_ps": 17.5,
+   "first_fail_ps": 30.0,
+   "setup_ps": -17.5
+  }
+ },
+ "hold_ps": {
+  "ADDRESS<2> (column)": {
+   "reference_ps": {
+    "wlb<1>": 87.4
+   },
+   "search": [
+    {
+     "t_ps": 80.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<1>": 87.3
+     }
+    },
+    {
+     "t_ps": 0.0,
+     "pass": false,
+     "edges_ps": {
+      "wlb<1>": 87.8
+     }
+    },
+    {
+     "t_ps": 40.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<1>": 86.8
+     }
+    },
+    {
+     "t_ps": 20.0,
+     "pass": false,
+     "edges_ps": {
+      "wlb<1>": 87.6
+     }
+    },
+    {
+     "t_ps": 30.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<1>": 86.7
+     }
+    }
+   ],
+   "last_pass_ps": 30.0,
+   "first_fail_ps": 20.0,
+   "hold_ps": 30.0
+  },
+  "ADDRESS<7> (half)": {
+   "reference_ps": {
+    "wlt<0>": 88.4
+   },
+   "search": [
+    {
+     "t_ps": 80.0,
+     "pass": true,
+     "edges_ps": {
+      "wlt<0>": 88.2
+     }
+    },
+    {
+     "t_ps": 0.0,
+     "pass": false,
+     "edges_ps": {
+      "wlt<0>": 88.4
+     }
+    },
+    {
+     "t_ps": 40.0,
+     "pass": true,
+     "edges_ps": {
+      "wlt<0>": 87.8
+     }
+    },
+    {
+     "t_ps": 20.0,
+     "pass": true,
+     "edges_ps": {
+      "wlt<0>": 88.5
+     }
+    },
+    {
+     "t_ps": 10.0,
+     "pass": false,
+     "edges_ps": {
+      "wlt<0>": 88.7
+     }
+    }
+   ],
+   "last_pass_ps": 20.0,
+   "first_fail_ps": 10.0,
+   "hold_ps": 20.0
+  },
+  "ADDRESS<0> (mux)": {
+   "reference_ps": {
+    "sae": 204.9
+   },
+   "search": [
+    {
+     "t_ps": 80.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 203.6
+     }
+    },
+    {
+     "t_ps": 0.0,
+     "pass": false,
+     "edges_ps": {
+      "sae": 204.9
+     }
+    },
+    {
+     "t_ps": 40.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 205.4
+     }
+    },
+    {
+     "t_ps": 20.0,
+     "pass": false,
+     "edges_ps": {
+      "sae": 204.9
+     }
+    },
+    {
+     "t_ps": 30.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 203.8
+     }
+    }
+   ],
+   "last_pass_ps": 30.0,
+   "first_fail_ps": 20.0,
+   "hold_ps": 30.0
+  },
+  "banksel": {
+   "reference_ps": {
+    "wlb<0>": 87.4,
+    "sae": 204.9
+   },
+   "search": [
+    {
+     "t_ps": 80.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<0>": 87.3,
+      "sae": 203.6
+     }
+    },
+    {
+     "t_ps": 0.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<0>": 87.4,
+      "sae": 204.9
+     }
+    },
+    {
+     "t_ps": -40.0,
+     "pass": false,
+     "edges_ps": {
+      "wlb<0>": null,
+      "sae": null
+     }
+    },
+    {
+     "t_ps": -20.0,
+     "pass": false,
+     "edges_ps": {
+      "wlb<0>": null,
+      "sae": null
+     }
+    },
+    {
+     "t_ps": -10.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<0>": 87.9,
+      "sae": 205.7
+     }
+    }
+   ],
+   "last_pass_ps": -10.0,
+   "first_fail_ps": -20.0,
+   "hold_ps": -10.0
+  },
+  "read": {
+   "reference_ps": {
+    "sae": 204.9
+   },
+   "search": [
+    {
+     "t_ps": 80.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 203.6
+     }
+    },
+    {
+     "t_ps": 0.0,
+     "pass": false,
+     "edges_ps": {
+      "sae": null
+     }
+    },
+    {
+     "t_ps": 40.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 205.4
+     }
+    },
+    {
+     "t_ps": 20.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 208.0
+     }
+    },
+    {
+     "t_ps": 10.0,
+     "pass": false,
+     "edges_ps": {
+      "sae": null
+     }
+    }
+   ],
+   "last_pass_ps": 20.0,
+   "first_fail_ps": 10.0,
+   "hold_ps": 20.0
+  },
+  "byte_wrenab": {
+   "reference_ps": {
+    "wrena": 59.8
+   },
+   "search": [
+    {
+     "t_ps": 80.0,
+     "pass": true,
+     "edges_ps": {
+      "wrena": 59.8
+     }
+    },
+    {
+     "t_ps": 0.0,
+     "pass": false,
+     "edges_ps": {
+      "wrena": null
+     }
+    },
+    {
+     "t_ps": 40.0,
+     "pass": true,
+     "edges_ps": {
+      "wrena": 59.7
+     }
+    },
+    {
+     "t_ps": 20.0,
+     "pass": true,
+     "edges_ps": {
+      "wrena": 59.5
+     }
+    },
+    {
+     "t_ps": 10.0,
+     "pass": true,
+     "edges_ps": {
+      "wrena": 60.2
+     }
+    }
+   ],
+   "last_pass_ps": 10.0,
+   "first_fail_ps": 0.0,
+   "hold_ps": 10.0
+  },
+  "wd": {
+   "search": [
+    {
+     "t_ps": 80.0,
+     "pass": true,
+     "edges_ps": {
+      "cell_mv": 700.0,
+      "dataout_mv": 700.0
+     }
+    },
+    {
+     "t_ps": 0.0,
+     "pass": false,
+     "edges_ps": {
+      "cell_mv": 0.0,
+      "dataout_mv": 0.0
+     }
+    },
+    {
+     "t_ps": 40.0,
+     "pass": true,
+     "edges_ps": {
+      "cell_mv": 700.0,
+      "dataout_mv": 700.0
+     }
+    },
+    {
+     "t_ps": 20.0,
+     "pass": false,
+     "edges_ps": {
+      "cell_mv": 0.0,
+      "dataout_mv": 0.0
+     }
+    },
+    {
+     "t_ps": 30.0,
+     "pass": false,
+     "edges_ps": {
+      "cell_mv": 0.0,
+      "dataout_mv": 0.0
+     }
+    }
+   ],
+   "polarity": "wd = 1 held through the edge, then dropped",
+   "last_pass_ps": 40.0,
+   "first_fail_ps": 30.0,
+   "hold_ps": 40.0
+  }
+ },
+ "pin_capacitance_ff": {
+  "ADDRESS[0]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.95,
+   "wire_ff": 0.9896,
+   "total_ff": 1.2536
+  },
+  "ADDRESS[1]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.21,
+   "wire_ff": 0.842,
+   "total_ff": 1.106
+  },
+  "ADDRESS[2]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.5,
+   "wire_ff": 0.8996,
+   "total_ff": 1.1636
+  },
+  "ADDRESS[3]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 3.94,
+   "wire_ff": 0.7876,
+   "total_ff": 1.0516
+  },
+  "ADDRESS[4]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 3.66,
+   "wire_ff": 0.7324,
+   "total_ff": 0.9964
+  },
+  "ADDRESS[5]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.06,
+   "wire_ff": 0.8128,
+   "total_ff": 1.0768
+  },
+  "ADDRESS[6]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 3.63,
+   "wire_ff": 0.7264,
+   "total_ff": 0.9904
+  },
+  "ADDRESS[7]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.16,
+   "wire_ff": 0.8322,
+   "total_ff": 1.0962
+  },
+  "banksel": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.02,
+   "wire_ff": 0.8046,
+   "total_ff": 1.0686
+  },
+  "byte_wrenab": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 3.82,
+   "wire_ff": 0.7648,
+   "total_ff": 1.0288
+  },
+  "clk": {
+   "gate_ff": 1.0496,
+   "gate_devices": 16,
+   "gate_fins": 24,
+   "wire_len_um": 5.75,
+   "wire_ff": 1.1494,
+   "total_ff": 2.199
+  },
+  "read": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.08,
+   "wire_ff": 0.8154,
+   "total_ff": 1.0794
+  },
+  "sdel[0]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.91,
+   "wire_ff": 0.9828,
+   "total_ff": 1.2468
+  },
+  "sdel[1]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.02,
+   "wire_ff": 0.8048,
+   "total_ff": 1.0688
+  },
+  "sdel[2]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.06,
+   "wire_ff": 0.8128,
+   "total_ff": 1.0768
+  },
+  "sdel[3]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.37,
+   "wire_ff": 0.8744,
+   "total_ff": 1.1384
+  },
+  "sdel[4]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 3.63,
+   "wire_ff": 0.7264,
+   "total_ff": 0.9904
+  },
+  "wd[0]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[10]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[11]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[12]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[13]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[14]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[15]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[16]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[17]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[18]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[19]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[1]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[20]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[21]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[22]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[23]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[24]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[25]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[26]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[27]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[28]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[29]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[2]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[30]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[31]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[32]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[33]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[34]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[35]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[36]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[37]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[38]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[39]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[3]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[40]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[41]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[42]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[43]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[44]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[45]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[46]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[47]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[48]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[49]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[4]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[50]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[51]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[52]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[53]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[54]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[55]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[56]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[57]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[58]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[59]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[5]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[60]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[61]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[62]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[63]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[6]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[7]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[8]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  },
+  "wd[9]": {
+   "gate_ff": 0.264,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.6062
+  }
+ },
+ "stage_a": {
+  "20": {
+   "clk_rise_ns": [
+    0.5,
+    2.5
+   ],
+   "clk_fall_ns": [
+    1.5,
+    3.5
+   ],
+   "clk_to_wl_ps": [
+    87.4,
+    87.6
+   ],
+   "clk_to_sae_ps": [
+    204.9,
+    203.6
+   ],
+   "clk_to_prech_release_ps": [
+    109.6,
+    109.6
+   ],
+   "clk_to_wlena_ps": [
+    36.4,
+    36.4
+   ],
+   "wl_retire_after_clk_fall_ps": [
+    102.0,
+    102.0
+   ],
+   "wl_slew_ps": [
+    21.4,
+    21.3
+   ],
+   "sae_retire_after_clk_fall_ps": [
+    221.8,
+    221.8
+   ],
+   "ysel_switch_after_address_ps": 105.9
+  },
+  "60": {
+   "clk_rise_ns": [
+    0.5,
+    2.5
+   ],
+   "clk_fall_ns": [
+    1.5,
+    3.5
+   ],
+   "clk_to_wl_ps": [
+    94.4,
+    94.6
+   ],
+   "clk_to_sae_ps": [
+    211.0,
+    210.7
+   ],
+   "clk_to_prech_release_ps": [
+    116.4,
+    116.5
+   ],
+   "clk_to_wlena_ps": [
+    43.1,
+    43.2
+   ],
+   "wl_retire_after_clk_fall_ps": [
+    115.2,
+    115.2
+   ],
+   "wl_slew_ps": [
+    21.2,
+    21.2
+   ],
+   "sae_retire_after_clk_fall_ps": [
+    234.2,
+    234.2
+   ],
+   "ysel_switch_after_address_ps": 105.9
+  },
+  "method": "decode band cone (stage A) with the cone-cut gate loads restored as capacitors (cut_loads_ff); clk rising 50% to the 50% rising crossing of the named control net; two cycles listed",
+  "clk_to_wrena_ps": 59.8,
+  "write_cycle": {
+   "clk_to_wrena_ps": 59.8,
+   "wrena_retire_after_clk_fall_ps": 60.5
+  }
+ },
+ "read_access": {
+  "input_slew_ps": [
+   20,
+   60
+  ],
+  "load_ff": [
+   5,
+   20,
+   50
+  ],
+  "cell_rise_ps": [
+   [
+    243.3,
+    254.5,
+    275.4
+   ],
+   [
+    250.6,
+    261.8,
+    282.6
+   ]
+  ],
+  "cell_fall_ps": [
+   [
+    250.2,
+    260.4,
+    277.9
+   ],
+   [
+    257.3,
+    267.5,
+    285.0
+   ]
+  ],
+  "rise_transition_ps": [
+   [
+    12.3,
+    33.7,
+    78.0
+   ],
+   [
+    12.6,
+    33.8,
+    78.0
+   ]
+  ],
+  "fall_transition_ps": [
+   [
+    12.8,
+    28.5,
+    61.7
+   ],
+   [
+    12.0,
+    28.2,
+    61.7
+   ]
+  ],
+  "first_cycle_cell_rise_ps": [
+   [
+    null,
+    null,
+    null
+   ],
+   [
+    null,
+    null,
+    null
+   ]
+  ],
+  "first_cycle_cell_fall_ps": [
+   [
+    251.6,
+    261.8,
+    279.2
+   ],
+   [
+    257.5,
+    267.7,
+    285.3
+   ]
+  ],
+  "correct": [
+   [
+    true,
+    true,
+    true
+   ],
+   [
+    true,
+    true,
+    true
+   ]
+  ],
+  "method": "stage B (column/sense/latch cone from dataout<0>, cut gate loads restored) driven by the stage A waveforms of the same slew; two reads: cycle 1 reads mux column 0, cycle 2 reads mux column 1 holding the opposite bit, so the cycle-2 dataout edge starts from a latch state the circuit produced.  cell_* = clk 50% rise to dataout 50%; *_transition = dataout 10%..90%; rows = input slew, columns = load",
+  "bitline_restore": [
+   {
+    "slew": 20,
+    "load": 5,
+    "dir": "rise",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 160.0
+   },
+   {
+    "slew": 20,
+    "load": 5,
+    "dir": "rise",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 160.0
+   },
+   {
+    "slew": 20,
+    "load": 5,
+    "dir": "fall",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 160.4
+   },
+   {
+    "slew": 20,
+    "load": 5,
+    "dir": "fall",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 159.5
+   },
+   {
+    "slew": 20,
+    "load": 20,
+    "dir": "rise",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 160.0
+   },
+   {
+    "slew": 20,
+    "load": 20,
+    "dir": "rise",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 160.0
+   },
+   {
+    "slew": 20,
+    "load": 20,
+    "dir": "fall",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 160.4
+   },
+   {
+    "slew": 20,
+    "load": 20,
+    "dir": "fall",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 159.5
+   },
+   {
+    "slew": 20,
+    "load": 50,
+    "dir": "rise",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 160.0
+   },
+   {
+    "slew": 20,
+    "load": 50,
+    "dir": "rise",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 160.0
+   },
+   {
+    "slew": 20,
+    "load": 50,
+    "dir": "fall",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 160.4
+   },
+   {
+    "slew": 20,
+    "load": 50,
+    "dir": "fall",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 159.5
+   },
+   {
+    "slew": 60,
+    "load": 5,
+    "dir": "rise",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 173.6
+   },
+   {
+    "slew": 60,
+    "load": 5,
+    "dir": "rise",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 173.6
+   },
+   {
+    "slew": 60,
+    "load": 5,
+    "dir": "fall",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 174.0
+   },
+   {
+    "slew": 60,
+    "load": 5,
+    "dir": "fall",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 173.2
+   },
+   {
+    "slew": 60,
+    "load": 20,
+    "dir": "rise",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 173.6
+   },
+   {
+    "slew": 60,
+    "load": 20,
+    "dir": "rise",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 173.6
+   },
+   {
+    "slew": 60,
+    "load": 20,
+    "dir": "fall",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 174.0
+   },
+   {
+    "slew": 60,
+    "load": 20,
+    "dir": "fall",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 173.2
+   },
+   {
+    "slew": 60,
+    "load": 50,
+    "dir": "rise",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 173.6
+   },
+   {
+    "slew": 60,
+    "load": 50,
+    "dir": "rise",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 173.6
+   },
+   {
+    "slew": 60,
+    "load": 50,
+    "dir": "fall",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 174.0
+   },
+   {
+    "slew": 60,
+    "load": 50,
+    "dir": "fall",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 173.2
+   }
+  ]
+ },
+ "min_period": {
+  "t_high_min_ps": 255,
+  "t_low_min_ps": 175,
+  "definition": "t_high = clk rise to dataout valid (50% crossing, 5 fF, 20 ps slew, worst polarity); t_low = clk fall to both addressed bitlines restored to >= 90% VDD (worst over the read table); the candidate period t_high + t_low is then re-simulated (stage A + stage B, both polarities, two cycles with the column mux switching between them): pass = cycle-2 dataout correct and cycle-1 bitlines restored before the cycle-2 rise.  min_period = 1.2 x the verified period.  The wordline and precharge are level-controlled by clk in this design (measured: they retire after the clock falls), so the period is a high-phase plus a low-phase requirement, not a single self-timed chain.",
+  "attempts": [
+   {
+    "period_ps": 430,
+    "t_high_ps": 255,
+    "t_low_ps": 175,
+    "rise": {
+     "dataout_final_mv": 700.0,
+     "dataout_ok": true,
+     "bitlines_restored": true,
+     "cycle1_dataout_ps": 251.7
+    },
+    "fall": {
+     "dataout_final_mv": 0.0,
+     "dataout_ok": true,
+     "bitlines_restored": true,
+     "cycle1_dataout_ps": null
+    },
+    "result": "pass"
+   }
+  ],
+  "verified_period_ps": 430,
+  "min_period_ps": 516.0
+ },
+ "setup_hold_method": "stage A, one cycle (clk high 0.5 to 1.1 ns), input edges 20 ps; bisection (5 iterations) on the input's 50% crossing relative to the clk 50% rise.  Each scenario first runs its own REFERENCE (the new value held stable) and records the clk-to-edge of the watched control nets (reference_ps).  Setup: the input switches to the new value at t (negative = before the edge) and PASSES if the watched edges come no later than the reference plus 10 ps, the quiet nets (the wrong wordline) stay below 10% VDD, and for the mux bit the column selects are settled when sae fires.  Hold: the input holds the new value through the edge and switches away at t (positive = after the edge); PASS = same criterion.  setup_ps = -(latest passing arrival); hold_ps = earliest passing departure; the measured edges of every bisection point are kept in search[]. Resolution = bracket / 2^iterations.",
+ "wd_method": "stage A two-cycle write (cycle 1: read=0, byte_wrenab=1) then read (cycle 2) waveforms drive stage B; the addressed cell is preset to the complement of wd; PASS = the cell's bitline-side node is at wd before the readback edge AND cycle-2 dataout returns wd.  wd's 50% crossing is bisected relative to the cycle-1 clk rise, same brackets and iteration count as the stage A inputs.",
+ "leakage": {
+  "cell_leak_a": 2.955858e-11,
+  "band_slice_a": 1.639102309566657e-07,
+  "band_slice_detail": {
+   "curve_a": {
+    "1ns": 2.630323543846399e-07,
+    "3ns": 2.216156833478045e-07,
+    "10ns": 2.022907399018338e-07,
+    "30ns": 1.710914336245611e-07,
+    "100ns": 1.638662357368192e-07
+   },
+   "t_end_ns": 100.0,
+   "drift_last_decade": 0.0438,
+   "note": "value at 100 ns; fell 4.4% over the last decade"
+  },
+  "band_slice_devices": 4622,
+  "column_slice_a": 1.4687234153052845e-08,
+  "column_slice_detail": {
+   "curve_a": {
+    "1ns": 1.105097526355135e-09,
+    "3ns": 7.275470994746911e-09,
+    "10ns": 1.3038029739927e-08,
+    "30ns": 1.4493221479234e-08,
+    "100ns": 1.455138663359432e-08
+   },
+   "t_end_ns": 100.0,
+   "drift_last_decade": -0.0132,
+   "note": "value at 100 ns; fell -1.3% over the last decade"
+  },
+  "column_slice_devices": 1654,
+  "column_slice_cells": 256,
+  "column_periphery_a": 7.1202376730528444e-09,
+  "cells_total_a": 4.8428777472e-07,
+  "bank_total_a": 1.1038932167520476e-06,
+  "bank_total_nw": 772.7252517264333,
+  "measured_slices_sum_a": 1.7859746510971855e-07,
+  "method": "idle points (clk 0, banksel 0, address 0, sdel all 1) reached by a 100 ns settling transient from the digital state (.ic, uic; a Newton .op of the band does not converge); the value is the supply current at the end of the window, the decay curve is in *_detail.curve_a, and the value is null if it still fell more than 10% over the last decade: band_slice_a = the whole decode/control band; column_slice_a = one dataout column slice (256 cells + its io column); cell_leak_a = the rung 5 single-cell bench.  measured_slices_sum_a = band + one column, as simulated.  bank_total_a = band + 64 columns x (column_slice - 256 x cell) + 16384 cells x cell: an extrapolation, stated as such.  Power = current x 0.7 V."
+ }
+}

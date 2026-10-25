@@ -1,0 +1,2365 @@
+{
+ "config": {
+  "bits": 32,
+  "strips": 4,
+  "depth": 32,
+  "name": "sramforge_32bx4x64",
+  "corner": "SS",
+  "corner_name": "SS_0p7V_25C",
+  "vdd_v": 0.7,
+  "temp_c": 25,
+  "data_width": 64,
+  "n_address": 8,
+  "words": 256,
+  "bitcells": 16384,
+  "width_um": 9.612,
+  "height_um": 77.804,
+  "area_um2": 747.852
+ },
+ "provenance": {
+  "date": "2026-09-19T20:13:55",
+  "ngspice": "ngspice",
+  "osdi": "bsimcmg110.osdi",
+  "models": "asap7_SS.osdi.sp",
+  "netlist_devices": 114454,
+  "wall_s_total": 1891.1,
+  "runs": [
+   {
+    "deck": "gatecap_nmos_rvt.sp",
+    "status": "ok",
+    "wall_s": 11.7
+   },
+   {
+    "deck": "gatecap_pmos_rvt.sp",
+    "status": "ok",
+    "wall_s": 1.2
+   },
+   {
+    "deck": "gatecap_nmos_sram.sp",
+    "status": "ok",
+    "wall_s": 18.9
+   },
+   {
+    "deck": "gatecap_pmos_sram.sp",
+    "status": "ok",
+    "wall_s": 34.3
+   },
+   {
+    "deck": "stageA_read_s20.sp",
+    "status": "ok",
+    "wall_s": 50.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_read_s60.sp",
+    "status": "ok",
+    "wall_s": 58.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_rise_s20_c5.sp",
+    "status": "ok",
+    "wall_s": 48.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_fall_s20_c5.sp",
+    "status": "ok",
+    "wall_s": 54.4,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_rise_s20_c20.sp",
+    "status": "ok",
+    "wall_s": 57.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_fall_s20_c20.sp",
+    "status": "ok",
+    "wall_s": 69.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_rise_s20_c50.sp",
+    "status": "ok",
+    "wall_s": 21.4,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_fall_s20_c50.sp",
+    "status": "ok",
+    "wall_s": 58.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_rise_s60_c5.sp",
+    "status": "ok",
+    "wall_s": 67.3,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_fall_s60_c5.sp",
+    "status": "ok",
+    "wall_s": 65.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_rise_s60_c20.sp",
+    "status": "ok",
+    "wall_s": 76.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_fall_s60_c20.sp",
+    "status": "ok",
+    "wall_s": 80.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_rise_s60_c50.sp",
+    "status": "ok",
+    "wall_s": 83.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_fall_s60_c50.sp",
+    "status": "ok",
+    "wall_s": 79.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_period_500.sp",
+    "status": "ok",
+    "wall_s": 28.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_period_500_rise.sp",
+    "status": "ok",
+    "wall_s": 32.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_period_500_fall.sp",
+    "status": "ok",
+    "wall_s": 25.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_ref_ADDRESS2.sp",
+    "status": "ok",
+    "wall_s": 7.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS2_-120.sp",
+    "status": "ok",
+    "wall_s": 14.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS2_-20.sp",
+    "status": "ok",
+    "wall_s": 6.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS2_+30.sp",
+    "status": "ok",
+    "wall_s": 7.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS2_+5.sp",
+    "status": "ok",
+    "wall_s": 11.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS2_-8.sp",
+    "status": "ok",
+    "wall_s": 11.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS2_+80.sp",
+    "status": "ok",
+    "wall_s": 9.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS2_+0.sp",
+    "status": "ok",
+    "wall_s": 7.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS2_+40.sp",
+    "status": "ok",
+    "wall_s": 6.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS2_+20.sp",
+    "status": "ok",
+    "wall_s": 7.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS2_+30.sp",
+    "status": "ok",
+    "wall_s": 6.2,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_ref_ADDRESS7.sp",
+    "status": "ok",
+    "wall_s": 7.2,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS7_-120.sp",
+    "status": "ok",
+    "wall_s": 6.2,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS7_-20.sp",
+    "status": "ok",
+    "wall_s": 6.4,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS7_-70.sp",
+    "status": "ok",
+    "wall_s": 6.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS7_-45.sp",
+    "status": "ok",
+    "wall_s": 5.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS7_-32.sp",
+    "status": "ok",
+    "wall_s": 5.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS7_+80.sp",
+    "status": "ok",
+    "wall_s": 6.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS7_+0.sp",
+    "status": "ok",
+    "wall_s": 5.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS7_+40.sp",
+    "status": "ok",
+    "wall_s": 6.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS7_+20.sp",
+    "status": "ok",
+    "wall_s": 6.3,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS7_+30.sp",
+    "status": "ok",
+    "wall_s": 6.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_ref_ADDRESS0.sp",
+    "status": "ok",
+    "wall_s": 6.3,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS0_-120.sp",
+    "status": "ok",
+    "wall_s": 6.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS0_-20.sp",
+    "status": "ok",
+    "wall_s": 6.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS0_+30.sp",
+    "status": "ok",
+    "wall_s": 6.3,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS0_+5.sp",
+    "status": "ok",
+    "wall_s": 6.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_ADDRESS0_+18.sp",
+    "status": "ok",
+    "wall_s": 6.3,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS0_+80.sp",
+    "status": "ok",
+    "wall_s": 6.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS0_+0.sp",
+    "status": "ok",
+    "wall_s": 6.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS0_+40.sp",
+    "status": "ok",
+    "wall_s": 5.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS0_+20.sp",
+    "status": "ok",
+    "wall_s": 6.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_ADDRESS0_+30.sp",
+    "status": "ok",
+    "wall_s": 5.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_ref_banksel.sp",
+    "status": "ok",
+    "wall_s": 6.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_banksel_-120.sp",
+    "status": "ok",
+    "wall_s": 6.2,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_banksel_-20.sp",
+    "status": "ok",
+    "wall_s": 6.2,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_banksel_-70.sp",
+    "status": "ok",
+    "wall_s": 6.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_banksel_-45.sp",
+    "status": "ok",
+    "wall_s": 6.3,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_banksel_-32.sp",
+    "status": "ok",
+    "wall_s": 6.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_banksel_+80.sp",
+    "status": "ok",
+    "wall_s": 6.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_banksel_+0.sp",
+    "status": "ok",
+    "wall_s": 8.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_banksel_-40.sp",
+    "status": "ok",
+    "wall_s": 5.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_banksel_-20.sp",
+    "status": "ok",
+    "wall_s": 5.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_banksel_-30.sp",
+    "status": "ok",
+    "wall_s": 5.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_ref_read.sp",
+    "status": "ok",
+    "wall_s": 6.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_read_-120.sp",
+    "status": "ok",
+    "wall_s": 6.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_read_-20.sp",
+    "status": "ok",
+    "wall_s": 5.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_read_-70.sp",
+    "status": "ok",
+    "wall_s": 6.3,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_read_-45.sp",
+    "status": "ok",
+    "wall_s": 6.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_read_-32.sp",
+    "status": "ok",
+    "wall_s": 6.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_read_+80.sp",
+    "status": "ok",
+    "wall_s": 6.0,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_read_+0.sp",
+    "status": "ok",
+    "wall_s": 4.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_read_+40.sp",
+    "status": "ok",
+    "wall_s": 6.2,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_read_+20.sp",
+    "status": "ok",
+    "wall_s": 4.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_read_+30.sp",
+    "status": "ok",
+    "wall_s": 5.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_ref_byte_wrenab.sp",
+    "status": "ok",
+    "wall_s": 4.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_byte_wrenab_-120.sp",
+    "status": "ok",
+    "wall_s": 4.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_byte_wrenab_-20.sp",
+    "status": "ok",
+    "wall_s": 5.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_byte_wrenab_+30.sp",
+    "status": "ok",
+    "wall_s": 5.4,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_byte_wrenab_+5.sp",
+    "status": "ok",
+    "wall_s": 5.7,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_setup_byte_wrenab_-8.sp",
+    "status": "ok",
+    "wall_s": 5.2,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_byte_wrenab_+80.sp",
+    "status": "ok",
+    "wall_s": 5.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_byte_wrenab_+0.sp",
+    "status": "ok",
+    "wall_s": 5.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_byte_wrenab_+40.sp",
+    "status": "ok",
+    "wall_s": 6.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_byte_wrenab_+20.sp",
+    "status": "ok",
+    "wall_s": 5.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_hold_byte_wrenab_+10.sp",
+    "status": "ok",
+    "wall_s": 5.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageA_writeread.sp",
+    "status": "ok",
+    "wall_s": 14.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_setup_-120.sp",
+    "status": "ok",
+    "wall_s": 11.3,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_setup_-20.sp",
+    "status": "ok",
+    "wall_s": 10.8,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_setup_+30.sp",
+    "status": "ok",
+    "wall_s": 11.5,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_setup_+55.sp",
+    "status": "ok",
+    "wall_s": 11.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_setup_+42.sp",
+    "status": "ok",
+    "wall_s": 12.4,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_hold_+80.sp",
+    "status": "ok",
+    "wall_s": 10.6,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_hold_+0.sp",
+    "status": "ok",
+    "wall_s": 12.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_hold_+40.sp",
+    "status": "ok",
+    "wall_s": 11.1,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_hold_+20.sp",
+    "status": "ok",
+    "wall_s": 12.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "stageB_wd_hold_+30.sp",
+    "status": "ok",
+    "wall_s": 10.9,
+    "options": "rung5"
+   },
+   {
+    "deck": "leak_band.sp",
+    "status": "ok",
+    "wall_s": 6.9,
+    "options": "leak_gear"
+   },
+   {
+    "deck": "leak_column.sp",
+    "status": "ok",
+    "wall_s": 35.9,
+    "options": "leak_gear"
+   }
+  ],
+  "stage_a_devices": 2526,
+  "stage_b_devices": 1654,
+  "stage_b_cells": 256
+ },
+ "estimates": {
+  "gate_cap_per_fin_f": {
+   "nmos_rvt": 3.7514261429272334e-17,
+   "pmos_rvt": 3.972062648487858e-17,
+   "nmos_sram": 3.157541621354458e-17,
+   "pmos_sram": 3.612326149801308e-17
+  },
+  "gate_cap_method": "ngspice transient on one device of each model card (nfin=4, source = drain = its rail): gate ramped over the full 0..VDD swing in 1 ns, gate current integrated, C = Q / VDD / nfin; the large-signal average gate capacitance per fin",
+  "wire_c_per_um_f": 2e-16,
+  "pin_capacitance_method": "ESTIMATE, not simulated: sum over the devices whose gate is the pin's net of nfin x per-fin gate cap (gate_cap_per_fin_f), plus the net's metal length (sum of the longer bounding-box side of every M1..M5 island of the net) x wire_c_per_um_f",
+  "cut_loads_ff": {
+   "stage_a_total": 629.06,
+   "stage_b_total": 2550.01,
+   "note": "capacitors restoring the gate loads the cone truncation removed (fin count x per-fin gate cap, no wire); the largest sit on sae, the precharge lines and the wordline",
+   "sae": 57.62,
+   "wlb<0>": 32.63,
+   "blprechbn": 61.01,
+   "saprechn": 40.67
+  }
+ },
+ "notes": [
+  "leakage: column idle point: transient stopped at 0.02 ns"
+ ],
+ "setup_ps": {
+  "ADDRESS<2> (column)": {
+   "reference_ps": {
+    "wlb<1>": 100.7
+   },
+   "search": [
+    {
+     "t_ps": -120.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<1>": 100.5
+     }
+    },
+    {
+     "t_ps": -20.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<1>": 101.4
+     }
+    },
+    {
+     "t_ps": 30.0,
+     "pass": false,
+     "edges_ps": {
+      "wlb<1>": null
+     }
+    },
+    {
+     "t_ps": 5.0,
+     "pass": false,
+     "edges_ps": {
+      "wlb<1>": 117.7
+     }
+    },
+    {
+     "t_ps": -7.5,
+     "pass": true,
+     "edges_ps": {
+      "wlb<1>": 106.3
+     }
+    }
+   ],
+   "last_pass_ps": -7.5,
+   "first_fail_ps": 5.0,
+   "setup_ps": 7.5
+  },
+  "ADDRESS<7> (half)": {
+   "reference_ps": {
+    "wlt<0>": 101.7
+   },
+   "search": [
+    {
+     "t_ps": -120.0,
+     "pass": true,
+     "edges_ps": {
+      "wlt<0>": 100.9
+     }
+    },
+    {
+     "t_ps": -20.0,
+     "pass": false,
+     "edges_ps": {
+      "wlt<0>": 136.1
+     }
+    },
+    {
+     "t_ps": -70.0,
+     "pass": true,
+     "edges_ps": {
+      "wlt<0>": 94.4
+     }
+    },
+    {
+     "t_ps": -45.0,
+     "pass": true,
+     "edges_ps": {
+      "wlt<0>": 111.3
+     }
+    },
+    {
+     "t_ps": -32.5,
+     "pass": false,
+     "edges_ps": {
+      "wlt<0>": 123.2
+     }
+    }
+   ],
+   "last_pass_ps": -45.0,
+   "first_fail_ps": -32.5,
+   "setup_ps": 45.0
+  },
+  "ADDRESS<0> (mux)": {
+   "reference_ps": {
+    "sae": 239.0
+   },
+   "search": [
+    {
+     "t_ps": -120.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 239.0
+     }
+    },
+    {
+     "t_ps": -20.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 239.0
+     }
+    },
+    {
+     "t_ps": 30.0,
+     "pass": false,
+     "edges_ps": {
+      "sae": 239.0
+     }
+    },
+    {
+     "t_ps": 5.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 237.4
+     }
+    },
+    {
+     "t_ps": 17.5,
+     "pass": true,
+     "edges_ps": {
+      "sae": 237.3
+     }
+    }
+   ],
+   "last_pass_ps": 17.5,
+   "first_fail_ps": 30.0,
+   "setup_ps": -17.5
+  },
+  "banksel": {
+   "reference_ps": {
+    "wlb<0>": 100.7,
+    "sae": 239.0
+   },
+   "search": [
+    {
+     "t_ps": -120.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<0>": 99.5,
+      "sae": 237.4
+     }
+    },
+    {
+     "t_ps": -20.0,
+     "pass": false,
+     "edges_ps": {
+      "wlb<0>": 127.1,
+      "sae": 264.3
+     }
+    },
+    {
+     "t_ps": -70.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<0>": 95.2,
+      "sae": 233.6
+     }
+    },
+    {
+     "t_ps": -45.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<0>": 101.9,
+      "sae": 239.3
+     }
+    },
+    {
+     "t_ps": -32.5,
+     "pass": false,
+     "edges_ps": {
+      "wlb<0>": 115.5,
+      "sae": 253.8
+     }
+    }
+   ],
+   "last_pass_ps": -45.0,
+   "first_fail_ps": -32.5,
+   "setup_ps": 45.0
+  },
+  "read": {
+   "reference_ps": {
+    "sae": 239.0
+   },
+   "search": [
+    {
+     "t_ps": -120.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 238.9
+     }
+    },
+    {
+     "t_ps": -20.0,
+     "pass": false,
+     "edges_ps": {
+      "sae": 261.5
+     }
+    },
+    {
+     "t_ps": -70.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 234.4
+     }
+    },
+    {
+     "t_ps": -45.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 237.7
+     }
+    },
+    {
+     "t_ps": -32.5,
+     "pass": false,
+     "edges_ps": {
+      "sae": 249.3
+     }
+    }
+   ],
+   "last_pass_ps": -45.0,
+   "first_fail_ps": -32.5,
+   "setup_ps": 45.0
+  },
+  "byte_wrenab": {
+   "reference_ps": {
+    "wrena": 68.4
+   },
+   "search": [
+    {
+     "t_ps": -120.0,
+     "pass": true,
+     "edges_ps": {
+      "wrena": 68.4
+     }
+    },
+    {
+     "t_ps": -20.0,
+     "pass": true,
+     "edges_ps": {
+      "wrena": 75.2
+     }
+    },
+    {
+     "t_ps": 30.0,
+     "pass": false,
+     "edges_ps": {
+      "wrena": null
+     }
+    },
+    {
+     "t_ps": 5.0,
+     "pass": false,
+     "edges_ps": {
+      "wrena": 100.2
+     }
+    },
+    {
+     "t_ps": -7.5,
+     "pass": false,
+     "edges_ps": {
+      "wrena": 87.8
+     }
+    }
+   ],
+   "last_pass_ps": -20.0,
+   "first_fail_ps": -7.5,
+   "setup_ps": 20.0
+  },
+  "wd": {
+   "search": [
+    {
+     "t_ps": -120.0,
+     "pass": true,
+     "edges_ps": {
+      "cell_mv": 700.0,
+      "dataout_mv": 700.0
+     }
+    },
+    {
+     "t_ps": -20.0,
+     "pass": true,
+     "edges_ps": {
+      "cell_mv": 700.0,
+      "dataout_mv": 700.0
+     }
+    },
+    {
+     "t_ps": 30.0,
+     "pass": true,
+     "edges_ps": {
+      "cell_mv": 700.0,
+      "dataout_mv": 700.0
+     }
+    },
+    {
+     "t_ps": 55.0,
+     "pass": false,
+     "edges_ps": {
+      "cell_mv": 0.0,
+      "dataout_mv": 0.0
+     }
+    },
+    {
+     "t_ps": 42.5,
+     "pass": false,
+     "edges_ps": {
+      "cell_mv": 0.0,
+      "dataout_mv": 0.0
+     }
+    }
+   ],
+   "polarity": "write 1 into a cell holding 0, read back",
+   "last_pass_ps": 30.0,
+   "first_fail_ps": 42.5,
+   "setup_ps": -30.0
+  }
+ },
+ "hold_ps": {
+  "ADDRESS<2> (column)": {
+   "reference_ps": {
+    "wlb<1>": 100.7
+   },
+   "search": [
+    {
+     "t_ps": 80.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<1>": 99.8
+     }
+    },
+    {
+     "t_ps": 0.0,
+     "pass": false,
+     "edges_ps": {
+      "wlb<1>": 100.9
+     }
+    },
+    {
+     "t_ps": 40.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<1>": 100.4
+     }
+    },
+    {
+     "t_ps": 20.0,
+     "pass": false,
+     "edges_ps": {
+      "wlb<1>": 100.7
+     }
+    },
+    {
+     "t_ps": 30.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<1>": 100.8
+     }
+    }
+   ],
+   "last_pass_ps": 30.0,
+   "first_fail_ps": 20.0,
+   "hold_ps": 30.0
+  },
+  "ADDRESS<7> (half)": {
+   "reference_ps": {
+    "wlt<0>": 101.7
+   },
+   "search": [
+    {
+     "t_ps": 80.0,
+     "pass": true,
+     "edges_ps": {
+      "wlt<0>": 100.8
+     }
+    },
+    {
+     "t_ps": 0.0,
+     "pass": false,
+     "edges_ps": {
+      "wlt<0>": 101.7
+     }
+    },
+    {
+     "t_ps": 40.0,
+     "pass": true,
+     "edges_ps": {
+      "wlt<0>": 101.4
+     }
+    },
+    {
+     "t_ps": 20.0,
+     "pass": false,
+     "edges_ps": {
+      "wlt<0>": 101.6
+     }
+    },
+    {
+     "t_ps": 30.0,
+     "pass": true,
+     "edges_ps": {
+      "wlt<0>": 101.7
+     }
+    }
+   ],
+   "last_pass_ps": 30.0,
+   "first_fail_ps": 20.0,
+   "hold_ps": 30.0
+  },
+  "ADDRESS<0> (mux)": {
+   "reference_ps": {
+    "sae": 239.0
+   },
+   "search": [
+    {
+     "t_ps": 80.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 238.7
+     }
+    },
+    {
+     "t_ps": 0.0,
+     "pass": false,
+     "edges_ps": {
+      "sae": 239.0
+     }
+    },
+    {
+     "t_ps": 40.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 238.9
+     }
+    },
+    {
+     "t_ps": 20.0,
+     "pass": false,
+     "edges_ps": {
+      "sae": 238.9
+     }
+    },
+    {
+     "t_ps": 30.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 239.0
+     }
+    }
+   ],
+   "last_pass_ps": 30.0,
+   "first_fail_ps": 20.0,
+   "hold_ps": 30.0
+  },
+  "banksel": {
+   "reference_ps": {
+    "wlb<0>": 100.7,
+    "sae": 239.0
+   },
+   "search": [
+    {
+     "t_ps": 80.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<0>": 99.8,
+      "sae": 238.7
+     }
+    },
+    {
+     "t_ps": 0.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<0>": 100.7,
+      "sae": 239.0
+     }
+    },
+    {
+     "t_ps": -40.0,
+     "pass": false,
+     "edges_ps": {
+      "wlb<0>": null,
+      "sae": null
+     }
+    },
+    {
+     "t_ps": -20.0,
+     "pass": true,
+     "edges_ps": {
+      "wlb<0>": 100.8,
+      "sae": 239.5
+     }
+    },
+    {
+     "t_ps": -30.0,
+     "pass": false,
+     "edges_ps": {
+      "wlb<0>": null,
+      "sae": null
+     }
+    }
+   ],
+   "last_pass_ps": -20.0,
+   "first_fail_ps": -30.0,
+   "hold_ps": -20.0
+  },
+  "read": {
+   "reference_ps": {
+    "sae": 239.0
+   },
+   "search": [
+    {
+     "t_ps": 80.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 238.7
+     }
+    },
+    {
+     "t_ps": 0.0,
+     "pass": false,
+     "edges_ps": {
+      "sae": null
+     }
+    },
+    {
+     "t_ps": 40.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 238.9
+     }
+    },
+    {
+     "t_ps": 20.0,
+     "pass": false,
+     "edges_ps": {
+      "sae": null
+     }
+    },
+    {
+     "t_ps": 30.0,
+     "pass": true,
+     "edges_ps": {
+      "sae": 239.0
+     }
+    }
+   ],
+   "last_pass_ps": 30.0,
+   "first_fail_ps": 20.0,
+   "hold_ps": 30.0
+  },
+  "byte_wrenab": {
+   "reference_ps": {
+    "wrena": 68.4
+   },
+   "search": [
+    {
+     "t_ps": 80.0,
+     "pass": true,
+     "edges_ps": {
+      "wrena": 68.3
+     }
+    },
+    {
+     "t_ps": 0.0,
+     "pass": false,
+     "edges_ps": {
+      "wrena": null
+     }
+    },
+    {
+     "t_ps": 40.0,
+     "pass": true,
+     "edges_ps": {
+      "wrena": 68.3
+     }
+    },
+    {
+     "t_ps": 20.0,
+     "pass": true,
+     "edges_ps": {
+      "wrena": 68.5
+     }
+    },
+    {
+     "t_ps": 10.0,
+     "pass": true,
+     "edges_ps": {
+      "wrena": 68.6
+     }
+    }
+   ],
+   "last_pass_ps": 10.0,
+   "first_fail_ps": 0.0,
+   "hold_ps": 10.0
+  },
+  "wd": {
+   "search": [
+    {
+     "t_ps": 80.0,
+     "pass": true,
+     "edges_ps": {
+      "cell_mv": 700.0,
+      "dataout_mv": 700.0
+     }
+    },
+    {
+     "t_ps": 0.0,
+     "pass": false,
+     "edges_ps": {
+      "cell_mv": 0.0,
+      "dataout_mv": 0.0
+     }
+    },
+    {
+     "t_ps": 40.0,
+     "pass": true,
+     "edges_ps": {
+      "cell_mv": 700.0,
+      "dataout_mv": 700.0
+     }
+    },
+    {
+     "t_ps": 20.0,
+     "pass": false,
+     "edges_ps": {
+      "cell_mv": 0.0,
+      "dataout_mv": 0.0
+     }
+    },
+    {
+     "t_ps": 30.0,
+     "pass": false,
+     "edges_ps": {
+      "cell_mv": 0.0,
+      "dataout_mv": 0.0
+     }
+    }
+   ],
+   "polarity": "wd = 1 held through the edge, then dropped",
+   "last_pass_ps": 40.0,
+   "first_fail_ps": 30.0,
+   "hold_ps": 40.0
+  }
+ },
+ "pin_capacitance_ff": {
+  "ADDRESS[0]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.95,
+   "wire_ff": 0.9896,
+   "total_ff": 1.2213
+  },
+  "ADDRESS[1]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.21,
+   "wire_ff": 0.842,
+   "total_ff": 1.0737
+  },
+  "ADDRESS[2]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.5,
+   "wire_ff": 0.8996,
+   "total_ff": 1.1313
+  },
+  "ADDRESS[3]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 3.94,
+   "wire_ff": 0.7876,
+   "total_ff": 1.0193
+  },
+  "ADDRESS[4]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 3.66,
+   "wire_ff": 0.7324,
+   "total_ff": 0.9641
+  },
+  "ADDRESS[5]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.06,
+   "wire_ff": 0.8128,
+   "total_ff": 1.0445
+  },
+  "ADDRESS[6]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 3.63,
+   "wire_ff": 0.7264,
+   "total_ff": 0.9581
+  },
+  "ADDRESS[7]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.16,
+   "wire_ff": 0.8322,
+   "total_ff": 1.0639
+  },
+  "banksel": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.02,
+   "wire_ff": 0.8046,
+   "total_ff": 1.0363
+  },
+  "byte_wrenab": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 3.82,
+   "wire_ff": 0.7648,
+   "total_ff": 0.9965
+  },
+  "clk": {
+   "gate_ff": 0.9202,
+   "gate_devices": 16,
+   "gate_fins": 24,
+   "wire_len_um": 5.75,
+   "wire_ff": 1.1494,
+   "total_ff": 2.0696
+  },
+  "read": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.08,
+   "wire_ff": 0.8154,
+   "total_ff": 1.0471
+  },
+  "sdel[0]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.91,
+   "wire_ff": 0.9828,
+   "total_ff": 1.2145
+  },
+  "sdel[1]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.02,
+   "wire_ff": 0.8048,
+   "total_ff": 1.0365
+  },
+  "sdel[2]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.06,
+   "wire_ff": 0.8128,
+   "total_ff": 1.0445
+  },
+  "sdel[3]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 4.37,
+   "wire_ff": 0.8744,
+   "total_ff": 1.1061
+  },
+  "sdel[4]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 3.63,
+   "wire_ff": 0.7264,
+   "total_ff": 0.9581
+  },
+  "wd[0]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[10]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[11]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[12]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[13]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[14]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[15]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[16]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[17]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[18]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[19]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[1]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[20]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[21]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[22]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[23]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[24]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[25]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[26]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[27]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[28]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[29]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[2]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[30]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[31]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[32]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[33]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[34]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[35]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[36]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[37]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[38]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[39]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[3]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[40]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[41]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[42]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[43]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[44]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[45]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[46]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[47]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[48]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[49]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[4]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[50]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[51]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[52]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[53]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[54]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[55]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[56]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[57]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[58]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[59]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[5]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[60]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[61]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[62]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[63]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[6]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[7]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[8]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  },
+  "wd[9]": {
+   "gate_ff": 0.2317,
+   "gate_devices": 2,
+   "gate_fins": 6,
+   "wire_len_um": 1.71,
+   "wire_ff": 0.3422,
+   "total_ff": 0.5739
+  }
+ },
+ "stage_a": {
+  "20": {
+   "clk_rise_ns": [
+    0.5,
+    2.5
+   ],
+   "clk_fall_ns": [
+    1.5,
+    3.5
+   ],
+   "clk_to_wl_ps": [
+    100.7,
+    100.8
+   ],
+   "clk_to_sae_ps": [
+    239.0,
+    237.8
+   ],
+   "clk_to_prech_release_ps": [
+    128.1,
+    128.1
+   ],
+   "clk_to_wlena_ps": [
+    41.7,
+    41.7
+   ],
+   "wl_retire_after_clk_fall_ps": [
+    117.4,
+    117.4
+   ],
+   "wl_slew_ps": [
+    23.5,
+    23.5
+   ],
+   "sae_retire_after_clk_fall_ps": [
+    260.2,
+    260.2
+   ],
+   "ysel_switch_after_address_ps": 123.2
+  },
+  "60": {
+   "clk_rise_ns": [
+    0.5,
+    2.5
+   ],
+   "clk_fall_ns": [
+    1.5,
+    3.5
+   ],
+   "clk_to_wl_ps": [
+    108.4,
+    108.5
+   ],
+   "clk_to_sae_ps": [
+    245.0,
+    244.5
+   ],
+   "clk_to_prech_release_ps": [
+    136.0,
+    136.0
+   ],
+   "clk_to_wlena_ps": [
+    49.4,
+    49.4
+   ],
+   "wl_retire_after_clk_fall_ps": [
+    130.8,
+    130.8
+   ],
+   "wl_slew_ps": [
+    23.9,
+    23.9
+   ],
+   "sae_retire_after_clk_fall_ps": [
+    272.0,
+    272.0
+   ],
+   "ysel_switch_after_address_ps": 123.2
+  },
+  "method": "decode band cone (stage A) with the cone-cut gate loads restored as capacitors (cut_loads_ff); clk rising 50% to the 50% rising crossing of the named control net; two cycles listed",
+  "clk_to_wrena_ps": 68.4,
+  "write_cycle": {
+   "clk_to_wrena_ps": 68.4,
+   "wrena_retire_after_clk_fall_ps": 68.8
+  }
+ },
+ "read_access": {
+  "input_slew_ps": [
+   20,
+   60
+  ],
+  "load_ff": [
+   5,
+   20,
+   50
+  ],
+  "cell_rise_ps": [
+   [
+    285.1,
+    299.5,
+    326.6
+   ],
+   [
+    291.8,
+    306.1,
+    333.3
+   ]
+  ],
+  "cell_fall_ps": [
+   [
+    293.7,
+    306.2,
+    328.5
+   ],
+   [
+    300.2,
+    312.8,
+    335.1
+   ]
+  ],
+  "rise_transition_ps": [
+   [
+    15.9,
+    42.8,
+    99.9
+   ],
+   [
+    15.6,
+    42.7,
+    100.0
+   ]
+  ],
+  "fall_transition_ps": [
+   [
+    14.8,
+    34.7,
+    77.0
+   ],
+   [
+    14.2,
+    34.5,
+    77.0
+   ]
+  ],
+  "first_cycle_cell_rise_ps": [
+   [
+    null,
+    null,
+    null
+   ],
+   [
+    null,
+    null,
+    null
+   ]
+  ],
+  "first_cycle_cell_fall_ps": [
+   [
+    294.7,
+    307.2,
+    329.5
+   ],
+   [
+    300.4,
+    313.0,
+    335.3
+   ]
+  ],
+  "correct": [
+   [
+    true,
+    true,
+    true
+   ],
+   [
+    true,
+    true,
+    true
+   ]
+  ],
+  "method": "stage B (column/sense/latch cone from dataout<0>, cut gate loads restored) driven by the stage A waveforms of the same slew; two reads: cycle 1 reads mux column 0, cycle 2 reads mux column 1 holding the opposite bit, so the cycle-2 dataout edge starts from a latch state the circuit produced.  cell_* = clk 50% rise to dataout 50%; *_transition = dataout 10%..90%; rows = input slew, columns = load",
+  "bitline_restore": [
+   {
+    "slew": 20,
+    "load": 5,
+    "dir": "rise",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 187.0
+   },
+   {
+    "slew": 20,
+    "load": 5,
+    "dir": "rise",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 186.6
+   },
+   {
+    "slew": 20,
+    "load": 5,
+    "dir": "fall",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 187.5
+   },
+   {
+    "slew": 20,
+    "load": 5,
+    "dir": "fall",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 186.1
+   },
+   {
+    "slew": 20,
+    "load": 20,
+    "dir": "rise",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 187.0
+   },
+   {
+    "slew": 20,
+    "load": 20,
+    "dir": "rise",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 186.6
+   },
+   {
+    "slew": 20,
+    "load": 20,
+    "dir": "fall",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 187.5
+   },
+   {
+    "slew": 20,
+    "load": 20,
+    "dir": "fall",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 186.1
+   },
+   {
+    "slew": 20,
+    "load": 50,
+    "dir": "rise",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 187.0
+   },
+   {
+    "slew": 20,
+    "load": 50,
+    "dir": "rise",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 186.6
+   },
+   {
+    "slew": 20,
+    "load": 50,
+    "dir": "fall",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 187.5
+   },
+   {
+    "slew": 20,
+    "load": 50,
+    "dir": "fall",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 186.1
+   },
+   {
+    "slew": 60,
+    "load": 5,
+    "dir": "rise",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 200.8
+   },
+   {
+    "slew": 60,
+    "load": 5,
+    "dir": "rise",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 200.5
+   },
+   {
+    "slew": 60,
+    "load": 5,
+    "dir": "fall",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 201.3
+   },
+   {
+    "slew": 60,
+    "load": 5,
+    "dir": "fall",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 199.9
+   },
+   {
+    "slew": 60,
+    "load": 20,
+    "dir": "rise",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 200.8
+   },
+   {
+    "slew": 60,
+    "load": 20,
+    "dir": "rise",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 200.5
+   },
+   {
+    "slew": 60,
+    "load": 20,
+    "dir": "fall",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 201.3
+   },
+   {
+    "slew": 60,
+    "load": 20,
+    "dir": "fall",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 199.9
+   },
+   {
+    "slew": 60,
+    "load": 50,
+    "dir": "rise",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 200.8
+   },
+   {
+    "slew": 60,
+    "load": 50,
+    "dir": "rise",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 200.5
+   },
+   {
+    "slew": 60,
+    "load": 50,
+    "dir": "fall",
+    "cycle": 1,
+    "restore_after_clk_fall_ps": 201.3
+   },
+   {
+    "slew": 60,
+    "load": 50,
+    "dir": "fall",
+    "cycle": 2,
+    "restore_after_clk_fall_ps": 199.9
+   }
+  ]
+ },
+ "min_period": {
+  "t_high_min_ps": 295,
+  "t_low_min_ps": 205,
+  "definition": "t_high = clk rise to dataout valid (50% crossing, 5 fF, 20 ps slew, worst polarity); t_low = clk fall to both addressed bitlines restored to >= 90% VDD (worst over the read table); the candidate period t_high + t_low is then re-simulated (stage A + stage B, both polarities, two cycles with the column mux switching between them): pass = cycle-2 dataout correct and cycle-1 bitlines restored before the cycle-2 rise.  min_period = 1.2 x the verified period.  The wordline and precharge are level-controlled by clk in this design (measured: they retire after the clock falls), so the period is a high-phase plus a low-phase requirement, not a single self-timed chain.",
+  "attempts": [
+   {
+    "period_ps": 500,
+    "t_high_ps": 295,
+    "t_low_ps": 205,
+    "rise": {
+     "dataout_final_mv": 700.0,
+     "dataout_ok": true,
+     "bitlines_restored": true,
+     "cycle1_dataout_ps": 294.6
+    },
+    "fall": {
+     "dataout_final_mv": 0.0,
+     "dataout_ok": true,
+     "bitlines_restored": true,
+     "cycle1_dataout_ps": null
+    },
+    "result": "pass"
+   }
+  ],
+  "verified_period_ps": 500,
+  "min_period_ps": 600.0
+ },
+ "setup_hold_method": "stage A, one cycle (clk high 0.5 to 1.1 ns), input edges 20 ps; bisection (5 iterations) on the input's 50% crossing relative to the clk 50% rise.  Each scenario first runs its own REFERENCE (the new value held stable) and records the clk-to-edge of the watched control nets (reference_ps).  Setup: the input switches to the new value at t (negative = before the edge) and PASSES if the watched edges come no later than the reference plus 10 ps, the quiet nets (the wrong wordline) stay below 10% VDD, and for the mux bit the column selects are settled when sae fires.  Hold: the input holds the new value through the edge and switches away at t (positive = after the edge); PASS = same criterion.  setup_ps = -(latest passing arrival); hold_ps = earliest passing departure; the measured edges of every bisection point are kept in search[]. Resolution = bracket / 2^iterations.",
+ "wd_method": "stage A two-cycle write (cycle 1: read=0, byte_wrenab=1) then read (cycle 2) waveforms drive stage B; the addressed cell is preset to the complement of wd; PASS = the cell's bitline-side node is at wd before the readback edge AND cycle-2 dataout returns wd.  wd's 50% crossing is bisected relative to the cycle-1 clk rise, same brackets and iteration count as the stage A inputs.",
+ "leakage": {
+  "cell_leak_a": 2.228262e-11,
+  "band_slice_a": 9.363233220075392e-08,
+  "band_slice_detail": {
+   "curve_a": {
+    "1ns": 1.733895920904911e-07,
+    "3ns": 1.30344322503887e-07,
+    "10ns": 1.100880564815094e-07,
+    "30ns": 1.000763387839452e-07,
+    "100ns": 9.378213036280222e-08
+   },
+   "t_end_ns": 100.0,
+   "drift_last_decade": 0.0688,
+   "note": "value at 100 ns; fell 6.9% over the last decade"
+  },
+  "band_slice_devices": 4622,
+  "column_slice_a": null,
+  "column_slice_detail": {
+   "curve_a": {},
+   "t_end_ns": 0.02,
+   "note": "transient stopped at 0.02 ns"
+  },
+  "column_slice_devices": 1654,
+  "column_slice_cells": 256,
+  "column_periphery_a": null,
+  "cells_total_a": 3.6507844608e-07,
+  "bank_total_a": null,
+  "bank_total_nw": null,
+  "measured_slices_sum_a": null,
+  "method": "idle points (clk 0, banksel 0, address 0, sdel all 1) reached by a 100 ns settling transient from the digital state (.ic, uic; a Newton .op of the band does not converge); the value is the supply current at the end of the window, the decay curve is in *_detail.curve_a, and the value is null if it still fell more than 10% over the last decade: band_slice_a = the whole decode/control band; column_slice_a = one dataout column slice (256 cells + its io column); cell_leak_a = the rung 5 single-cell bench.  measured_slices_sum_a = band + one column, as simulated.  bank_total_a = band + 64 columns x (column_slice - 256 x cell) + 16384 cells x cell: an extrapolation, stated as such.  Power = current x 0.7 V."
+ }
+}

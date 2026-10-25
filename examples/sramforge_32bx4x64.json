@@ -1,0 +1,54 @@
+{
+  "top_cell": "sramforge_32bx4x64",
+  "gds": "sramforge_32bx4x64.gds",
+  "bits_per_group": 32,
+  "strips_per_group": 4,
+  "depth_groups": 32,
+  "bitcells": 16384,
+  "width_um": 9.612,
+  "height_um": 77.804,
+  "reference_exact": true,
+  "data_bits": 64,
+  "num_words": 256,
+  "address_bits": 8,
+  "verilog": "sramforge_32bx4x64.v",
+  "sense_timing": {
+    "TT": {
+      "code": "11111",
+      "need_ps": 202.3,
+      "sae_ps": 203.6,
+      "slack_ps": 1.3,
+      "note": "clk-to-WL 87.6 + flight 73 + split 22 + margin 20 ps at TT"
+    },
+    "SS": {
+      "code": "11111",
+      "need_ps": 217.1,
+      "sae_ps": 237.8,
+      "slack_ps": 20.7,
+      "note": "clk-to-WL 100.8 + flight 71 + split 25 + margin 20 ps at SS"
+    }
+  },
+  "lef": {
+    "lef": "sramforge_32bx4x64.lef",
+    "macro": "sramforge_32bx4x64",
+    "units": 4000,
+    "rounded_coordinates": 0,
+    "pins": 147,
+    "pin_texts": 174,
+    "obstructions": {
+      "M1": 53457,
+      "M2": 26033,
+      "M3": 1362,
+      "M4": 372,
+      "M5": 38
+    },
+    "shift_dbu": [
+      0,
+      88
+    ],
+    "size_um": [
+      9.612,
+      77.804
+    ]
+  }
+}
